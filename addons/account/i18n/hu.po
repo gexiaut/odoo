@@ -519,7 +519,7 @@ msgstr "<span role=\"elválasztó\">Nézet</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span title=\"Balance in General Ledger\">Balance in GL</span>"
-msgstr "<span title=\"Egyenleg alap főkönyvben\">Egyenleg GL</span>"
+msgstr "<span title=\"Egyenleg alap főkönyvben\">Egyenleg GL-ben</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -539,32 +539,32 @@ msgstr "<span> Eddig </span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Amount Paid</span>"
-msgstr ""
+msgstr "<span>Kifizetett mennyiség</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Balance</span>"
-msgstr ""
+msgstr "<span>Egyenleg</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Description</span>"
-msgstr ""
+msgstr "<span>Leírás</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Disc.%</span>"
-msgstr ""
+msgstr "<span>Lemez.%</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Invoice Date</span>"
-msgstr ""
+msgstr "<span>Számla dátuma</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Invoice Number</span>"
-msgstr ""
+msgstr "<span>Számla száma</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -574,7 +574,7 @@ msgstr "<span>Új számla</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>New Entry</span>"
-msgstr ""
+msgstr "<span>Új belépő</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -594,12 +594,12 @@ msgstr "<span>Műveletek</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<span>Original Amount</span>"
-msgstr ""
+msgstr "<span>Eredeti összeg</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Quantity</span>"
-msgstr ""
+msgstr "<span>Mennyiség</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -609,27 +609,27 @@ msgstr "<span>Kimutatások</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Source Document</span>"
-msgstr ""
+msgstr "<span>Forrás dokumentum</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Taxes</span>"
-msgstr ""
+msgstr "<span>Adók</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<span>Unit Price</span>"
-msgstr ""
+msgstr "<span>Egység ár</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Upload Bills</span>"
-msgstr ""
+msgstr "<span>Feltöltési számlák</span"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span>Upload Invoices</span>"
-msgstr ""
+msgstr "<span>Feltöltési számlák</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -639,31 +639,33 @@ msgstr "<span>Nézet</span>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong class=\"mr16\">Subtotal</strong>"
-msgstr ""
+msgstr "<strong class=\"mr16\">Részösszeg</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid ""
 "<strong class=\"text-center\">Scan me with your banking "
 "app.</strong><br/><br/>"
-msgstr ""
+msgstr "<strong class=\"text-center\">Szkennelj be a te bankozásoddal"
+"app.</strong><br/><br/>""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid ""
 "<strong class=\"text-center\">The SEPA QR Code informations are not set "
 "correctly.</strong><br/>"
-msgstr ""
+msgstr ""<strong class=\"text-center\">A SEPA QR Code információk nincsenek rendesen "
+beállítva.</strong><br/>""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
 msgid "<strong class=\"text-muted\">Salesperson</strong>"
-msgstr ""
+msgstr "<strong class=\"text-muted\">eladó</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_with_payments
 msgid "<strong>Amount Due</strong>"
-msgstr ""
+msgstr "<strong>Érték mert</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_journal
@@ -678,7 +680,7 @@ msgstr "<strong>Vevő kód:</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<strong>Customer: </strong>"
-msgstr ""
+msgstr "<strong>Vásárló: </strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -708,22 +710,22 @@ msgstr "<strong>Napló:</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<strong>Memo: </strong>"
-msgstr ""
+msgstr "<strong>Memorandum: </strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<strong>Payment Amount: </strong>"
-msgstr ""
+msgstr "<strong>Fizetlsi mennyiség: </strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<strong>Payment Date: </strong>"
-msgstr ""
+msgstr "<strong>Fizetési dátum: </strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<strong>Payment Method: </strong>"
-msgstr ""
+msgstr "<strong>Fizetési módszer: </strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
@@ -759,12 +761,12 @@ msgstr "<strong>Összesen</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_account_kanban
 msgid "<strong>Type: </strong>"
-msgstr ""
+msgstr "<strong>Típus: </strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "<strong>Vendor: </strong>"
-msgstr ""
+msgstr "<strong>Eladó: </strong>"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_view_bank_statement_tree
@@ -791,7 +793,7 @@ msgstr "Fizetési feltételnek csak egy egyenleg típusú sora lehet."
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid "A bank account can belong to only one journal."
-msgstr ""
+msgstr "A bank fiók csak egy folyóirathoz tartozik"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -807,7 +809,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid "A bank statement line is a financial transaction on a bank account"
-msgstr ""
+msgstr "A bank állítási sor az egy finanszírozási tranzakciü a bank fiókon "
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_journal_line
@@ -835,7 +837,10 @@ msgid ""
 "only when payments are reconciled with a bank statement cannot be manually "
 "posted. Those will be posted automatically after performing the bank "
 "reconciliation."
-msgstr ""
+msgstr "Fizetési naplóbejegyzés létrehozva egy naplóban, amely bejegyzés feladására van konfigurálva "
+"csak akkor, ha a kifizetések összeegyeztethetők a bankszámlakivonattal, nem lehet kézzel"
+"feladni. Ezeket automatikusan feladják a bank teljesítése után"
+"egyeztetve.""
 
 #. module: account
 #: code:addons/account/models/reconciliation_widget.py:0
@@ -848,7 +853,8 @@ msgstr "Egy egyeztetésnek legalább két könyvelési tétellel kell rendelkezn
 msgid ""
 "A rounding per line is advised if your prices are tax-included. That way, "
 "the sum of line subtotals equals the total with taxes."
-msgstr ""
+msgstr " A kerekítés soronként tanácsolva van ha az áraid adót tartalmaznak. Íly módon
+a szummája a sor részösszegének egyenlő lesz az adóéval"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -867,7 +873,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_fiscal_position_tax_tax_src_dest_uniq
 msgid "A tax fiscal position could be defined only one time on same taxes."
-msgstr ""
+msgstr "Az adó fiskális pozíció az csak egyszer lehet meghatározva ugyan azon adókon"
 
 #. module: account
 #: code:addons/account/models/res_users.py:0
@@ -877,7 +883,12 @@ msgid ""
 "You should go in General Settings, and choose to display Product Prices\n"
 "either in 'Tax-Included' or in 'Tax-Excluded' mode\n"
 "(or switch twice the mode if you are already in the desired one)."
-msgstr ""
+msgstr "
+A felhasználónak nem lehet sem adó B2B, sem adó B2C. \ N "
+"Be kell lépnie az Általános beállítások menüpontba, és kiválasztania kell a termékárak megjelenítését \ n"
+"vagy 'adóval együtt' vagy 'adó nélkül' módban \ n"
+"(vagy kapcsolja át kétszer a módot, ha már a kívánt módban van)."
+
 
 #. module: account
 #: model:res.groups,name:account.group_warning_account
@@ -918,17 +929,18 @@ msgstr "Főkönyvi számla"
 msgid ""
 "Account %s (%s) does not allow reconciliation. First change the "
 "configuration of this account to allow it."
-msgstr ""
+msgstr "Fiók (%s) az nem engedi az egyeztetést. Először változtassa meg
+a beállítását ennek a fióknak ahhoz hogy megendhesse"
 
 #. module: account
 #: model:ir.model,name:account.model_account_cash_rounding
 msgid "Account Cash Rounding"
-msgstr ""
+msgstr "Fiók kézpénz kerekítés"
 
 #. module: account
 #: model:ir.model,name:account.model_account_chart_template
 msgid "Account Chart Template"
-msgstr ""
+msgstr "Fiók diagramm sablon"
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_report
@@ -956,12 +968,12 @@ msgstr "Könyvelési tétel"
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_tree
 msgid "Account Group"
-msgstr ""
+msgstr "Fiók csoport"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_group_tree
 msgid "Account Groups"
-msgstr ""
+msgstr "Fiók csoportok"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__company_partner_id
@@ -972,12 +984,12 @@ msgstr "Számla birtokosa"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__acc_holder_name
 msgid "Account Holder Name"
-msgstr ""
+msgstr "Fiók tulajdonosa"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_send
 msgid "Account Invoice Send"
-msgstr ""
+msgstr "Fiók számlája, küldés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__journal_id
@@ -991,12 +1003,12 @@ msgstr "Napló"
 #. module: account
 #: model:ir.model,name:account.model_account_journal_group
 msgid "Account Journal Group"
-msgstr ""
+msgstr "Napló csoport"
 
 #. module: account
 #: model:ir.model,name:account.model_report_account_report_journal
 msgid "Account Journal Report"
-msgstr ""
+msgstr "Napló tudósítás"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position__account_ids
@@ -1041,12 +1053,12 @@ msgstr "Követelés számla"
 #. module: account
 #: model:ir.model,name:account.model_account_reconciliation_widget
 msgid "Account Reconciliation widget"
-msgstr ""
+msgstr "Fiók egyeztetési modul"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__account_root_id
 msgid "Account Root"
-msgstr ""
+msgstr "Fiók rootolás"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account_template__account_src_id
@@ -1068,24 +1080,24 @@ msgstr "Főkönyvi számla címke"
 #. module: account
 #: model:ir.actions.act_window,name:account.account_tag_action
 msgid "Account Tags"
-msgstr ""
+msgstr "Fiók tag-ek"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tax_view_tree
 #: model_terms:ir.ui.view,arch_db:account.view_tax_form
 #: model_terms:ir.ui.view,arch_db:account.view_tax_tree
 msgid "Account Tax"
-msgstr "Adószámla"
+msgstr "Adó számla"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_tax_group_tree
 msgid "Account Tax Group"
-msgstr ""
+msgstr "Fiók adó csoport"
 
 #. module: account
 #: model:ir.model,name:account.model_account_tax_report_line
 msgid "Account Tax Report Line"
-msgstr ""
+msgstr "Fiók adó tudósító sor"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_template_form
@@ -1096,7 +1108,7 @@ msgstr "Adószámla sablon"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_taxcloud
 msgid "Account TaxCloud"
-msgstr ""
+msgstr "Fiók adófelhő"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_chart_template_seacrh
@@ -1159,24 +1171,25 @@ msgstr "Főkönyi számla egyeztetés visszavonása"
 #. module: account
 #: model:ir.model,name:account.model_account_root
 msgid "Account codes first 2 digits"
-msgstr ""
+msgstr "Fiók kódok első 2 száma"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_search
 msgid "Account group"
-msgstr ""
+msgstr "Fiók csoport"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_group_search
 msgid "Account groups"
-msgstr ""
+msgstr "Fiók csoportok"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_setup_bank_manual_config__acc_holder_name
 msgid ""
 "Account holder name, in case it is different than the name of the Account "
 "Holder"
-msgstr ""
+msgstr "Fiók tulaj neve, az esetben ha más mint a fiók neve
+"Tulaj"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account__account_src_id
@@ -1187,12 +1200,12 @@ msgstr "Főkönyvi számla a termékekre"
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__account_id
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line_template__account_id
 msgid "Account on which to post the tax amount"
-msgstr ""
+msgstr "Fiók amin ki kell írni az adó mennyiséget"
 
 #. module: account
 #: model:ir.model,name:account.model_report_account_report_invoice_with_payments
 msgid "Account report with payment lines"
-msgstr ""
+msgstr "Főkönyvi tudatosító fizetési sorokkal"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_template__tag_ids
@@ -1205,7 +1218,9 @@ msgstr "Főkönyvi számla címke"
 msgid ""
 "Account that will be set on lines created in cash basis journal entry and "
 "used to keep track of the tax base amount."
-msgstr ""
+msgstr "
+"Számla, amelyet a készpénz alapú naplóbejegyzésben létrehozott sorokra állítunk be, és"
+"az adóalap összegének nyomon követésére szolgál."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account__account_dest_id
@@ -1216,13 +1231,13 @@ msgstr "Helyette használt főkönyvi számla"
 #: model:ir.model.fields,help:account.field_account_accrual_accounting_wizard__revenue_accrual_account
 #: model:ir.model.fields,help:account.field_res_company__revenue_accrual_account_id
 msgid "Account used to move the period of a revenue"
-msgstr ""
+msgstr "Főkönyv ami használva van, hogy mozgatni lehessen a jövedelem időszakot "
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_accrual_accounting_wizard__expense_accrual_account
 #: model:ir.model.fields,help:account.field_res_company__expense_accrual_account_id
 msgid "Account used to move the period of an expense"
-msgstr ""
+msgstr "Főkönyv mely használva van arra, hogy mozgatni lehessen az időszakaszi kiadásokat "
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__cash_basis_transition_account_id
@@ -1232,19 +1247,22 @@ msgid ""
 "contain the tax amount as long as the original invoice has not been "
 "reconciled ; at reconciliation, this amount cancelled on this account and "
 "put on the regular tax account."
-msgstr ""
+msgstr ""A számla a készpénzalapú adók adóösszegének átalakítására szolgál."
+"tartalmaznia kell az adó összegét, mindaddig, amíg az eredeti számla még nem volt"
+"egyeztetett; egyeztetéskor ezt az összeget törölték a számlán, és"
+"felveszi a szokásos adószámlára.""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_search
 msgid "Account with Entries"
-msgstr ""
+msgstr "Főkönyv belépőkkel"
 
 #. module: account
 #: model:ir.actions.server,name:account.ir_cron_auto_post_draft_entry_ir_actions_server
 #: model:ir.cron,cron_name:account.ir_cron_auto_post_draft_entry
 #: model:ir.cron,name:account.ir_cron_auto_post_draft_entry
 msgid "Account; Post draft entries with auto_post set to True up to today"
-msgstr ""
+msgstr "Főkönyv; A piszkozat utáni belépőb auto_post-al azok be vannak állítva igaznak mára"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_accountant
@@ -1275,14 +1293,14 @@ msgstr "Könyvelési tételek"
 #. module: account
 #: model:ir.actions.act_window,name:account.open_account_journal_dashboard_kanban
 msgid "Accounting Overview"
-msgstr ""
+msgstr "Főkönyvelési átnézés"
 
 #. module: account
 #: code:addons/account/models/company.py:0
 #: model_terms:ir.ui.view,arch_db:account.onboarding_fiscal_year_step
 #, python-format
 msgid "Accounting Periods"
-msgstr ""
+msgstr "Fiókolási időszakok"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
@@ -1309,37 +1327,39 @@ msgstr "Főkönyvi számla összerendelés"
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_account_template
 msgid "Accounts Mapping Template of Fiscal Position"
-msgstr ""
+msgstr "Fiókok a költségvetési helyzet sablonja"
 
 #. module: account
 #: model:ir.model,name:account.model_account_fiscal_position_account
 msgid "Accounts Mapping of Fiscal Position"
-msgstr ""
+msgstr "A számlák költségvetési helyzetének feltérképezése"
 
 #. module: account
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #, python-format
 msgid "Accrual Adjusting Entry (%s recognized) for invoice: %s"
-msgstr ""
+msgstr "Területkorrekciós bejegyzés (% s elismert) számlához:% s"
 
 #. module: account
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #, python-format
 msgid "Accrual Adjusting Entry ({percent}% recognized) for invoice:"
-msgstr ""
+msgstr "
+Eredményelszámolási bejegyzés ({százalék}% elismert) a számlához:"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_accrual_accounting_wizard__journal_id
 #: model:ir.model.fields,field_description:account.field_res_company__accrual_default_journal_id
 msgid "Accrual Default Journal"
-msgstr ""
+msgstr "
+Felhalmozási alapértelmezett napló"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_accrual_accounting_wizard_form_view
 msgid "Accrued Account"
-msgstr ""
+msgstr "Felhalmozott fiók"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__message_needaction
@@ -1357,7 +1377,7 @@ msgstr "Akciók"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Activate Other Currencies"
-msgstr ""
+msgstr "Egyéb valuták bekapcsolása"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__active
@@ -1374,12 +1394,12 @@ msgstr "Aktív"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_accrual_accounting_wizard__active_move_line_ids
 msgid "Active Move Line"
-msgstr ""
+msgstr "Aktív mozgó sor"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__active_domain
 msgid "Active domain"
-msgstr "Aktív domain név"
+msgstr "Aktív régió név"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__activity_ids
@@ -1393,7 +1413,7 @@ msgstr "Tevékenységek"
 #: model:ir.model.fields,field_description:account.field_account_move__activity_exception_decoration
 #: model:ir.model.fields,field_description:account.field_account_payment__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Aktivitás Kivételi Dekoráció"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__activity_state
@@ -1412,63 +1432,63 @@ msgstr "Hozzáadás"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add Credit Note"
-msgstr ""
+msgstr "Adj hozzá hitel cetlit"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__add_sign
 msgid "Add Sign"
-msgstr ""
+msgstr "Addj hozzá jelet"
 
 #. module: account
 #: model:ir.actions.server,name:account.action_new_bank_setting
 #: model:ir.ui.menu,name:account.menu_action_account_bank_journal_form
 msgid "Add a Bank Account"
-msgstr ""
+msgstr "Bank fiók hozzáadása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.onboarding_bank_account_step
 msgid "Add a bank"
-msgstr ""
+msgstr "Bank hozzáadása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_form
 msgid "Add a journal"
-msgstr ""
+msgstr "Napló hozzáadása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_group_list
 msgid "Add a journal group"
-msgstr ""
+msgstr "Napló csoport hozzáadása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a line"
-msgstr ""
+msgstr "Sor hozzáadása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_form
 msgid "Add a new account"
-msgstr ""
+msgstr "Új fiók hozzáadása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.account_tag_action
 msgid "Add a new tag"
-msgstr ""
+msgstr "Új tag hozzáadása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a note"
-msgstr ""
+msgstr "Új megjegyzés hozzáadása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Add a payment QR code to your invoices"
-msgstr ""
+msgstr "Fizetési QR code adása a számláihoz"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_cash_rounding__strategy__add_invoice_line
 msgid "Add a rounding line"
-msgstr ""
+msgstr "Kerekítési sor hozzáadása"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__has_second_line
@@ -1480,7 +1500,7 @@ msgstr "Második sor hozzáadása"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Add a section"
-msgstr ""
+msgstr "Szekció hozzáadása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -1488,7 +1508,7 @@ msgid ""
 "Add an EPC QR code to your invoices so that your customers can pay instantly"
 " with their mobile banking application. EPC QR codes are used by many "
 "European banks to process SEPA payments."
-msgstr ""
+msgstr "Európai bankok amik feldolgozzák a SEPA fizetéseket"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -1510,7 +1530,7 @@ msgstr "További kapcsolatok"
 msgid ""
 "Additional tags that will be assigned by this repartition line for use in "
 "financial reports"
-msgstr ""
+msgstr "finanszírozási jelentések"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard__adjustment_type
@@ -1520,12 +1540,12 @@ msgstr "Helyesbítés típus"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_group__property_advance_tax_payment_account_id
 msgid "Advance Tax payment account"
-msgstr ""
+msgstr "Felsőbb szintű fizetési fiók"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__property_advance_tax_payment_account_id
 msgid "Advance tax payment account"
-msgstr ""
+msgstr "Feslőbb szintű fietési fiók"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_template_form
@@ -1556,7 +1576,7 @@ msgstr "Lejárt partner egyenleg"
 #. module: account
 #: model:ir.model,name:account.model_report_account_report_agedpartnerbalance
 msgid "Aged Partner Balance Report"
-msgstr ""
+msgstr "Korátmúlt partner egyenleg jelentés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__alias_id
@@ -1584,7 +1604,7 @@ msgstr "Összes bejegyzés"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__all_lines_reconciled
 msgid "All Lines Reconciled"
-msgstr ""
+msgstr "Minden sor egyeztetve"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_common_journal_report__target_move__posted
@@ -1598,13 +1618,13 @@ msgstr "Összes könyvelt tétel"
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #, python-format
 msgid "All accounts on the lines must be from the same type."
-msgstr ""
+msgstr "Minden fióknak a sorokon ugyan abból a csoportból kell származniam"
 
 #. module: account
 #: code:addons/account/models/company.py:0
 #, python-format
 msgid "All entries are hashed."
-msgstr ""
+msgstr "Minden belépő kivonatolt"
 
 #. module: account
 #. openerp-web
@@ -1621,7 +1641,7 @@ msgstr ""
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #, python-format
 msgid "All lines must be from the same company."
-msgstr ""
+msgstr "Minden sornak ugyanattól a cégtől kell származnia"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -1640,7 +1660,7 @@ msgstr "Számlák & Fizetések párosításának engedélyezése"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_product_margin
 msgid "Allow Product Margin"
-msgstr ""
+msgstr "Termék margó bekapcsolása"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__reconcile
@@ -1655,22 +1675,22 @@ msgstr "Csekk nyomtatás és befizetés engedélyezése"
 #. module: account
 #: model:res.groups,name:account.group_cash_rounding
 msgid "Allow the cash rounding management"
-msgstr ""
+msgstr "A kézépnz kerekítő állítgató bekapcsolása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Allow to configure taxes using cash basis"
-msgstr ""
+msgstr "Engedélyezée annak, hogy az adókat lehessen állítgatni kézpénz alapon"
 
 #. module: account
 #: model:res.groups,name:account.group_fiscal_year
 msgid "Allow to define fiscal years of more or less than a year"
-msgstr ""
+msgstr "Hagyja meghatározni egy vagy annál rövidebb pénzügyi éveket"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Allows to tag analytic entries and to manage analytic distributions"
-msgstr ""
+msgstr "Lehetővé teszi az elemző bejegyzések címkézését és az analitikus eloszlások kezelését"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -1715,55 +1735,55 @@ msgstr "Esedékes összeg"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__amount_residual_signed
 msgid "Amount Due Signed"
-msgstr ""
+msgstr "Mennyiség a jelek miatt"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_total_amount
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_total_amount
 msgid "Amount Matching"
-msgstr ""
+msgstr "Mennyiség egyeztetés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_total_amount_param
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_total_amount_param
 msgid "Amount Matching %"
-msgstr ""
+msgstr "Mennyiség egyeztetés %"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_amount_max
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_amount_max
 msgid "Amount Max Parameter"
-msgstr ""
+msgstr "Mennyiség maximum paraméter"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_amount_min
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_amount_min
 msgid "Amount Min Parameter"
-msgstr ""
+msgstr "Mennyiség minimum paraméter"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_nature
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_nature
 msgid "Amount Nature"
-msgstr ""
+msgstr "Mennyiség természet"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__match_nature__amount_paid
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_nature__amount_paid
 msgid "Amount Paid"
-msgstr ""
+msgstr "Mennyiség kifizetve"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__match_nature__both
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_nature__both
 msgid "Amount Paid/Received"
-msgstr ""
+msgstr "Mennyiség kifizetve/megkapva"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__match_nature__amount_received
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_nature__amount_received
 msgid "Amount Received"
-msgstr ""
+msgstr "Mennyiség megkapva"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__amount_type
@@ -1781,7 +1801,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__amount_from_label_regex
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__amount_from_label_regex
 msgid "Amount from Label (regex)"
-msgstr ""
+msgstr "Mennyiség címkéről (regex)"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__amount_currency
@@ -1805,19 +1825,20 @@ msgstr "Összeg:"
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid "An Off-Balance account can not be reconcilable"
-msgstr ""
+msgstr "Az egyenlegen kívüli számla nem egyeztethető össze"
 
 #. module: account
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid "An Off-Balance account can not have taxes"
-msgstr ""
+msgstr "A mérlegen kívüli számla nem tartalmazhat adókat"
 
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_fiscal_position_account_account_src_dest_uniq
 msgid ""
 "An account fiscal position could be defined only one time on same accounts."
-msgstr ""
+msgstr "
+A számla költségvetési helyzetét csak egyszer lehetett meghatározni ugyanazon számlán."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_form
@@ -1857,7 +1878,8 @@ msgstr ""
 msgid ""
 "An error occured when computing the inalterability. Impossible to get the "
 "unique previous posted journal entry."
-msgstr ""
+msgstr "Hiba történt a megváltoztathatatlanság kiszámításakor. Lehetetlen beszerezni a "
+msgstr "egyedi korábbi naplóbejegyzés."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_form
@@ -1883,7 +1905,7 @@ msgstr "Analitikus számla"
 #. module: account
 #: model:ir.ui.menu,name:account.account_analytic_group_menu
 msgid "Analytic Account Groups"
-msgstr ""
+msgstr "Analitikus fiók csoportok"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__group_analytic_accounting
@@ -1929,7 +1951,7 @@ msgstr "Analitikus címkék"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Analytic Tags."
-msgstr ""
+msgstr "Analitikus tag-ek"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__analytic_line_ids
@@ -1963,12 +1985,12 @@ msgstr "Alkalmazhatóság"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__tax_adjustments_wizard__adjustment_type__credit
 msgid "Applied on credit journal item"
-msgstr ""
+msgstr "Megfelelt a hitel napló tárgy"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__tax_adjustments_wizard__adjustment_type__debit
 msgid "Applied on debit journal item"
-msgstr ""
+msgstr "Alkalmazás beszedési napló tételre"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_onboarding_sale_tax_form
@@ -1985,8 +2007,8 @@ msgstr "Automatikusan alkalmazza ezt a költség helyet."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position__country_group_id
 #: model:ir.model.fields,help:account.field_account_fiscal_position_template__country_group_id
-msgid "Apply only if delivery or invoicing country match the group."
-msgstr ""
+msgid "Apply only if delivery or invoicing country match the group"
+msgstr "Csak akkor alkalmazza, ha a szállítási vagy a számlázási ország megegyezik a csoporttal"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_position__country_id
@@ -2003,7 +2025,7 @@ msgstr "Csak akkor alkalmazza, ha az ügyfél rendelkezik ADÓ számmal."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Apply right VAT rates for digital products sold in EU"
-msgstr ""
+msgstr "Helyes áfakulcsokat kell alkalmazni az EU-ban értékesített digitális termékekre"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__4
@@ -2041,12 +2063,12 @@ msgstr "Társított Főkönyvi számla sablonok"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__at_least_one_inbound
 msgid "At Least One Inbound"
-msgstr ""
+msgstr "Legalább egy bejövő"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__at_least_one_outbound
 msgid "At Least One Outbound"
-msgstr ""
+msgstr "Legalább egy kimenő"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_send_wizard_form
@@ -2093,29 +2115,29 @@ msgstr "Automatikus kitöltés"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move__invoice_vendor_bill_id
 msgid "Auto-complete from a past bill."
-msgstr ""
+msgstr "Automata-teljesítás már előző számlákból"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__auto_reconcile
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__auto_reconcile
 msgid "Auto-validate"
-msgstr ""
+msgstr "Automatikus-érvényesítés"
 
 #. module: account
 #: code:addons/account/models/company.py:0
 #, python-format
 msgid "Automatic Balancing Line"
-msgstr ""
+msgstr "Automatikus egyenlítő sor"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_currency_rate_live
 msgid "Automatic Currency Rates"
-msgstr ""
+msgstr "Automatikus valuta arányok"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Automatic Import"
-msgstr ""
+msgstr "Automatikus behozatal"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__price_average
@@ -2160,7 +2182,7 @@ msgstr "Bank"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Bank &amp; Cash"
-msgstr ""
+msgstr "Bank &amp; Kézépnz"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__bank_account_id
@@ -2176,7 +2198,7 @@ msgstr "Bankszámla"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_bank_journal_form
 msgid "Bank Account Name"
-msgstr ""
+msgstr "Bank fiók név"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__account_number
@@ -2189,7 +2211,7 @@ msgid ""
 "Bank Account Number to which the invoice will be paid. A Company bank "
 "account if this is a Customer Invoice or Vendor Credit Note, otherwise a "
 "Partner bank account number."
-msgstr ""
+msgstr "Partner bank fiók szám"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_bank_journal_form
@@ -2222,7 +2244,7 @@ msgstr "Banki naplók"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__bank_partner_id
 msgid "Bank Partner"
-msgstr ""
+msgstr "Bank partner"
 
 #. module: account
 #. openerp-web
@@ -2246,7 +2268,7 @@ msgstr "Banki számlamozgás egyeztetés előbeállítása"
 #: model:ir.model.fields,field_description:account.field_res_company__account_bank_reconciliation_start
 #: model:ir.model.fields,field_description:account.field_res_config_settings__account_bank_reconciliation_start
 msgid "Bank Reconciliation Threshold"
-msgstr ""
+msgstr "Bank-egyeztetési küszöb"
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement
@@ -2267,17 +2289,17 @@ msgstr "Bankszámla kivonat %s"
 #: code:addons/account/models/account_bank_statement.py:0
 #, python-format
 msgid "Bank Statement %s.pdf"
-msgstr ""
+msgstr "Bank állítás %s.pdf"
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_cashbox
 msgid "Bank Statement Cashbox"
-msgstr ""
+msgstr "Bank állítás cashbox"
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_closebalance
 msgid "Bank Statement Closing Balance"
-msgstr ""
+msgstr "Bank állítás záró egyenleg"
 
 #. module: account
 #: model:ir.model,name:account.model_account_bank_statement_line
@@ -2293,7 +2315,7 @@ msgstr "Bankkivonat sorai"
 #: code:addons/account/models/account_bank_statement.py:0
 #, python-format
 msgid "Bank Statement.pdf"
-msgstr ""
+msgstr "Bank állítás.pdf"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
@@ -2303,13 +2325,13 @@ msgstr "Bankkivonatok"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__bank_account_id
 msgid "Bank account that was used in this transaction."
-msgstr ""
+msgstr "Bank fiók, mely tranzakcióban volt használva"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_setup_bank_manual_config__acc_type
 msgid ""
 "Bank account type: Normal or IBAN. Inferred from the bank account number."
-msgstr ""
+msgstr "Bank fiók típus: Normális vagy IBAN.Kikövetkeztetett a bank fiók számból"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_liquidity
@@ -2321,7 +2343,7 @@ msgstr "Bank és készpénz"
 #. module: account
 #: model:ir.model,name:account.model_account_setup_bank_manual_config
 msgid "Bank setup manual config"
-msgstr ""
+msgstr "Bank telepített manuális beállítás"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__statement_line_id
@@ -2332,7 +2354,7 @@ msgstr "Bankkivonat sor könyvelés egyeztetére került ezzel a bejegyzéssel"
 #: code:addons/account/models/account_journal_dashboard.py:0
 #, python-format
 msgid "Bank: Balance"
-msgstr ""
+msgstr "bANK: Egyenleg"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_tax_repartition_line__repartition_type__base
@@ -2350,31 +2372,31 @@ msgstr "Alap összeg"
 #: model:ir.model.fields,field_description:account.field_account_tax__cash_basis_base_account_id
 #: model:ir.model.fields,field_description:account.field_account_tax_template__cash_basis_base_account_id
 msgid "Base Tax Received Account"
-msgstr ""
+msgstr "Alap adó bejött fiók"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__repartition_type
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line_template__repartition_type
 msgid "Base on which the factor will be applied."
-msgstr ""
+msgstr " Alap amin a faktor be lesz indítva"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line__repartition_type
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line_template__repartition_type
 msgid "Based On"
-msgstr ""
+msgstr "Alapon"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_type__partner
 msgid "Based on Customer"
-msgstr ""
+msgstr "Vásárlón alapuló"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_type__invoice
 #: model:ir.model.fields.selection,name:account.selection__account_tax__tax_exigibility__on_invoice
 #: model:ir.model.fields.selection,name:account.selection__account_tax_template__tax_exigibility__on_invoice
 msgid "Based on Invoice"
-msgstr ""
+msgstr "Számlára alapult"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__tax_exigibility
@@ -2382,18 +2404,19 @@ msgstr ""
 msgid ""
 "Based on Invoice: the tax is due as soon as the invoice is validated.\n"
 "Based on Payment: the tax is due as soon as the payment of the invoice is received."
-msgstr ""
+msgstr "Számla alapján: az adó esedékes, amint a számlát érvényesítették. \ n "
+"Fizetés alapján: az adó esedékes, amint a számla megérkezik.""
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_tax__tax_exigibility__on_payment
 #: model:ir.model.fields.selection,name:account.selection__account_tax_template__tax_exigibility__on_payment
 msgid "Based on Payment"
-msgstr ""
+msgstr "Fizetésen alapló"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Batch Payments"
-msgstr ""
+msgstr "Tétel fizetések"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -2409,7 +2432,7 @@ msgstr "Számla kelte"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_invoice_extract
 msgid "Bill Digitalization"
-msgstr ""
+msgstr "Számla digitalizálás"
 
 #. module: account
 #: model:res.groups,name:account.group_account_invoice
@@ -2419,7 +2442,7 @@ msgstr "Számlázás"
 #. module: account
 #: model:res.groups,name:account.group_account_manager
 msgid "Billing Administrator"
-msgstr ""
+msgstr "Számlázási rendszergazda"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_in_invoice_type
@@ -2436,12 +2459,12 @@ msgstr "Számlák elemzése"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bills to Pay"
-msgstr ""
+msgstr "Számlák miket fizetni kell"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bills to Validate"
-msgstr ""
+msgstr "Számlák melyeket érvényesíteni kell"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:0
@@ -2467,7 +2490,7 @@ msgstr "Elérhető országok böngészése."
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_budget
 msgid "Budget Management"
-msgstr ""
+msgstr "Költségvetés vezetés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__name
@@ -2482,7 +2505,7 @@ msgstr "Országonként"
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_refund
 msgid "By Credit Note"
-msgstr ""
+msgstr "Hitel cetli szerint"
 
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_product
@@ -2526,38 +2549,38 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "CAMT Import"
-msgstr ""
+msgstr "CAMT Bevitel"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_CIP
 msgid "CARRIAGE AND INSURANCE PAID TO"
-msgstr ""
+msgstr "SZÁLLÍTÁS ÉS BIZTOSÍTÁS"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_CPT
 msgid "CARRIAGE PAID TO"
-msgstr ""
+msgstr "SZÁLLÍTÁS FIZETVA -NAK"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_CFR
 msgid "COST AND FREIGHT"
-msgstr ""
+msgstr "ÁR ÉS ÁRUFUVAROZÁSBAN"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_CIF
 msgid "COST, INSURANCE AND FREIGHT"
-msgstr ""
+msgstr "ÁR, BIZTOSÍTÁS ÉS ÁRIFIVAROZÁSBAN"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "CSV Import"
-msgstr ""
+msgstr "CSV Bevitel"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "CUST"
-msgstr ""
+msgstr "CUST"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__visible
@@ -2605,7 +2628,7 @@ msgstr "Érvénytelenített számla"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Cannot create an invoice of type %s with a journal having %s as type."
-msgstr ""
+msgstr "% S típusú számlát nem lehet létrehozni egy% s típusú naplóval."
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -2613,7 +2636,9 @@ msgstr ""
 msgid ""
 "Cannot create unbalanced journal entry. Ids: %s\n"
 "Differences debit - credit: %s"
-msgstr ""
+msgstr "
+"Nem lehet kiegyensúlyozatlan naplóbejegyzést létrehozni. Azonosító:% s \ n"
+"Különbségek terhelés - jóváírás:% s""
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -2658,24 +2683,24 @@ msgstr "Készpénz alap"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__tax_cash_basis_journal_id
 msgid "Cash Basis Journal"
-msgstr ""
+msgstr "Kézpénz alapú napló"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:0
 #, python-format
 msgid "Cash Basis Taxes"
-msgstr ""
+msgstr "Kézpénz alapú adók"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__cash_basis_transition_account_id
 #: model:ir.model.fields,field_description:account.field_account_tax_template__cash_basis_transition_account_id
 msgid "Cash Basis Transition Account"
-msgstr ""
+msgstr "Kézpénz alapú átviteli fiók"
 
 #. module: account
 #: model:ir.model,name:account.model_cash_box_out
 msgid "Cash Box Out"
-msgstr ""
+msgstr "Fizetési doboz, kint"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -2687,13 +2712,13 @@ msgstr "Készpénz felügyelet"
 #: model:ir.model.fields,field_description:account.field_account_chart_template__default_cash_difference_expense_account_id
 #: model:ir.model.fields,field_description:account.field_res_company__default_cash_difference_expense_account_id
 msgid "Cash Difference Expense Account"
-msgstr ""
+msgstr "Kézpénz differenciális kiadási fiók"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__default_cash_difference_income_account_id
 #: model:ir.model.fields,field_description:account.field_res_company__default_cash_difference_income_account_id
 msgid "Cash Difference Income Account"
-msgstr ""
+msgstr "Kézpénz differenciális bejöveteli fiók"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_view_bank_statement_tree
@@ -2703,24 +2728,24 @@ msgstr "Pénztár"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__group_cash_rounding
 msgid "Cash Rounding"
-msgstr ""
+msgstr "Kézpénz kerekítés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_cash_rounding_id
 msgid "Cash Rounding Method"
-msgstr ""
+msgstr "Kézpénz kerekítési módszer"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.rounding_list_action
 #: model:ir.ui.menu,name:account.menu_action_rounding_form_view
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Cash Roundings"
-msgstr ""
+msgstr "Kézpénz kerekítések"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Cash Statement"
-msgstr ""
+msgstr ""Kézpénz állítás
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -2732,7 +2757,7 @@ msgstr "Készpénz különbséget észlelt a számolás során (%s)"
 #: code:addons/account/models/account_journal_dashboard.py:0
 #, python-format
 msgid "Cash: Balance"
-msgstr ""
+msgstr "Kézpénz egyenleg"
 
 #. module: account
 #: model:ir.model,name:account.model_account_cashbox_line
@@ -2762,7 +2787,7 @@ msgstr "Bevétel számla kategóriája"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__writeoff_label
 msgid "Change label of the counterpart that will hold the payment difference"
-msgstr ""
+msgstr "Változtassa meg az ellenérték címkét, amely tartja a fizetési különbséget"
 
 #. module: account
 #: code:addons/account/controllers/portal.py:0
@@ -2781,7 +2806,8 @@ msgstr ""
 msgid ""
 "Changing your company name is not allowed once invoices have been issued for"
 " your account. Please contact us directly for this operation."
-msgstr ""
+msgstr "A vállalkozás nevének megváltoztatása nem engedélyezett, miután számlákat kiállítottak a következőhöz:"
+"a fiókodhoz. Kérjük, forduljon hozzánk közvetlenül ehhez a művelethez."
 
 #. module: account
 #: code:addons/account/controllers/portal.py:0
@@ -2831,7 +2857,7 @@ msgstr "Számlatükör sablonok"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.onboarding_chart_of_account_step
 msgid "Chart of account set."
-msgstr ""
+msgstr "A fiók szett diagrammja"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_list
@@ -2848,7 +2874,7 @@ msgstr "Csekk záró egyenleg "
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Check all"
-msgstr ""
+msgstr "Összes kiválasztása"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement__is_difference_zero
@@ -2860,12 +2886,12 @@ msgstr "Jelölje, ha a különbség nulla"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Check that you have no bank statement lines to"
-msgstr ""
+msgstr "Ellenőrizze, hogy nincs-e bankszámlakivonatsor"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Check them"
-msgstr ""
+msgstr "Ellenőrizze őket"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__reconcile
@@ -2881,14 +2907,16 @@ msgstr ""
 msgid ""
 "Check this box if you don't want to share the same sequence for invoices and"
 " credit notes made from this journal"
-msgstr ""
+msgstr ""Jelölje be ezt a négyzetet, ha nem akarja ugyanazt a sorozatot megosztani a számlákra és"
+"ebből a folyóiratból származó jóváírások""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_tag__tax_negate
 msgid ""
 "Check this box to negate the absolute value of the balance of the lines "
 "associated with this tag in tax report computation."
-msgstr ""
+msgstr "Jelölje be ezt a négyzetet a sorok egyenlegének abszolút értékének érvénytelenítéséhez"
+társítva ezzel a címkével az adójelentés kiszámításakor."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__price_include
@@ -2934,40 +2962,41 @@ msgstr "Főkönyvi számla sablon választás"
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_onboarding_sale_tax_form
 #: model_terms:ir.ui.view,arch_db:account.onboarding_sale_tax_step
 msgid "Choose a default sales tax for your products."
-msgstr ""
+msgstr "Válasszon alapértelmezett forgalmi adót a termékeire."
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Choose counterpart or Create Write-off"
-msgstr ""
+msgstr "Válassza ki a párját vagy a Leírás létrehozását"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_reversal__refund_method
 msgid ""
 "Choose how you want to credit this invoice. You cannot \"modify\" nor "
 "\"cancel\" if the invoice is already reconciled."
-msgstr ""
+msgstr "Válassza ki, hogyan szeretné jóváírni ezt a számlát. Nem lehet" "módosítani \", sem "
+"\" visszavonás \ ", ha a számla már egyeztetve van."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.actions_account_fiscal_year
 msgid "Click here to create a new fiscal year."
-msgstr ""
+msgstr "Klikkeljen ide, hogy készítsen egy új fiskális évet"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/js/tours/account.js:0
 #, python-format
 msgid "Click to <b>send the invoice by email.</b>"
-msgstr ""
+msgstr "Klikkeljen arra, hogy <b>számla küldés email.</b> által"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/js/tours/account.js:0
 #, python-format
 msgid "Click to <b>send the invoice.</b>"
-msgstr ""
+msgstr "Klikkeljen arra, hogy <b>küldjön számlát.</b>"
 
 #. module: account
 #. openerp-web
@@ -2976,7 +3005,8 @@ msgstr ""
 msgid ""
 "Click to <b>validate your invoice.</b> A reference will be assigned to this "
 "invoice and you will not be able to modify it anymore."
-msgstr ""
+msgstr "Kattintson a <b> számla érvényesítésére. </b> Erre referencia kerül hozzárendelésre"
+"számla, és már nem lesz képes módosítani."
 
 #. module: account
 #. openerp-web
@@ -2990,7 +3020,7 @@ msgstr "Bezárás"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Close statement"
-msgstr ""
+msgstr "Közeli állítás"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__account_dashboard_onboarding_state__closed
@@ -3018,7 +3048,7 @@ msgstr "Kód"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_group__code_prefix
 msgid "Code Prefix"
-msgstr ""
+msgstr "Kód előtag"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_cashbox_line__coin_value
@@ -3028,14 +3058,15 @@ msgstr "Váltópénz/Számla érték"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Collect customer payments in one-click using Euro SEPA Service"
-msgstr ""
+msgstr "Gyűjtse össze az ügyfelek fizetéseit egyetlen kattintással az Euro SEPA szolgáltatás segítségével"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "Collect information and produce statistics on the trade in goods in Europe "
 "with intrastat"
-msgstr ""
+msgstr "Információgyűjtés és statisztikák készítése az európai áruforgalomról "
+intrastat-tal"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__color
@@ -3052,7 +3083,7 @@ msgstr "Értékesítő személy"
 #. module: account
 #: model:ir.model,name:account.model_account_common_journal_report
 msgid "Common Journal Report"
-msgstr ""
+msgstr "Gyakori Napló Jelentés"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_common_menu
@@ -3062,7 +3093,7 @@ msgstr "Általános kimutatás"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__invoice_reference_model
 msgid "Communication Standard"
-msgstr ""
+msgstr "Kommunikációs alap"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__invoice_reference_type
@@ -3148,12 +3179,12 @@ msgstr "Adók teljes csomagja"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_report_line__name
 msgid "Complete name for this report line, to be used in report."
-msgstr ""
+msgstr "Ennek a jelentésnek a teljes neve, amelyet a jelentésben kell használni"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__composer_id
 msgid "Composer"
-msgstr ""
+msgstr "Zeneszerző"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__composition_mode
@@ -3163,7 +3194,7 @@ msgstr "Összeállítási mód"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Compute tax rates based on U.S. ZIP codes"
-msgstr ""
+msgstr "Az adómértékek kiszámítása az USA irányítószámai alapján"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__balance_end
@@ -3175,12 +3206,13 @@ msgstr "Számított egyenleg"
 msgid ""
 "Computed field, listing the tax grids impacted by this line, and the amount "
 "it applies to each of them."
-msgstr ""
+msgstr "Számított mező, felsorolva az ezen sor által érintett adórácsokat, valamint az összeget "
+mindegyikre vonatkozik."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid "Conditions on Bank Statement Line"
-msgstr ""
+msgstr "A bankszámlakivonatra vonatkozó feltételek"
 
 #. module: account
 #: model:ir.model,name:account.model_res_config_settings
@@ -3195,7 +3227,7 @@ msgstr "Konfiguráció"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Configuration review"
-msgstr ""
+msgstr "Konfiguráció bemutató"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -3206,7 +3238,7 @@ msgstr "Beállít"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_configure_tax_report
 msgid "Configure Tax Report"
-msgstr ""
+msgstr "Adó jelentés konfigurálása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_bnk_stmt_cashbox_footer
@@ -3234,12 +3266,12 @@ msgstr ""
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Congrats, you're all done!"
-msgstr ""
+msgstr "Gratulálunk, teljesen kész vagy!"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_onboarding_panel
 msgid "Congratulations! You are all set."
-msgstr ""
+msgstr "Teljes szívünkből gratulálunk ténylegesen! Készen állsz."
 
 #. module: account
 #: model:ir.model,name:account.model_res_partner
@@ -3271,7 +3303,7 @@ msgstr "Hozzáférések-felügyelete"
 #: code:addons/account/models/company.py:0
 #, python-format
 msgid "Corrupted data on journal entry with id %s."
-msgstr ""
+msgstr "Sérült adatok a naplóbejegyzésnél% s azonosítóval."
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_direct_costs
@@ -3284,7 +3316,8 @@ msgstr "Árbevételek költsége"
 msgid ""
 "Could not install new chart of account as there are already accounting "
 "entries existing."
-msgstr ""
+msgstr "Nem lehet telepíteni az új számlakartat, mivel már létezik számvitel"
+msgstr "bejegyzések léteznek. "
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__account_id
@@ -3294,7 +3327,7 @@ msgstr "Ellenszámla"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid "Counterpart Values"
-msgstr ""
+msgstr "hasonmás értékek"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__country_id
@@ -3318,17 +3351,17 @@ msgstr "Országcsoport"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_report_line__country_id
 msgid "Country for which this line is available."
-msgstr ""
+msgstr "Ország amiben ez a sor elérhető"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_tag__country_id
 msgid "Country for which this tag is available, when applied on taxes."
-msgstr ""
+msgstr ""Ország, amiben ez a tag elérhető, mikor adókon van használva
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Coverage"
-msgstr ""
+msgstr "lefedettség"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -3339,28 +3372,28 @@ msgstr "Létrehozás"
 #. module: account
 #: model:ir.actions.server,name:account.action_accrual_entry
 msgid "Create Accrual Entry"
-msgstr ""
+msgstr "Hozzon létre eredményszemléletű bejegyzést"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_accrual_accounting_wizard_action
 msgid "Create Accrual Entry for the expense/revenue recognition"
-msgstr ""
+msgstr "Hozzon létre eredményszemléletű bejegyzést a költségek / bevételek elismeréséhez"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_accrual_accounting_wizard_form_view
 msgid "Create Journal Entry"
-msgstr ""
+msgstr "Naplóbejegyzés létrehozása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form_multi
 msgid "Create Payment"
-msgstr ""
+msgstr "Fizetés létrehozása"
 
 #. module: account
 #: code:addons/account/models/company.py:0
 #, python-format
 msgid "Create a Bank Account"
-msgstr ""
+msgstr "Bank fiók létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_bank_journal_form
@@ -3372,32 +3405,32 @@ msgstr "Bankszámla létrehozása"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Create a counterpart"
-msgstr ""
+msgstr "hasonmás létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_out_refund_type
 msgid "Create a credit note"
-msgstr ""
+msgstr "Hitel cetli létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_out_invoice_type
 msgid "Create a customer invoice"
-msgstr ""
+msgstr "Vásárlói számla létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_journal_line
 msgid "Create a journal entry"
-msgstr ""
+msgstr "Naplóbejegyzés belépő létehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_group_tree
 msgid "Create a new account group"
-msgstr ""
+msgstr "Új fiók csoport létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_view_bank_statement_tree
 msgid "Create a new cash log"
-msgstr ""
+msgstr "Új kézpénz lap létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
@@ -3408,42 +3441,42 @@ msgstr "Új vásárló létrehozása a címtárban"
 #: model_terms:ir.actions.act_window,help:account.action_account_fiscal_position_form
 #: model_terms:ir.actions.act_window,help:account.action_account_fiscal_position_template_form
 msgid "Create a new fiscal position"
-msgstr ""
+msgstr "Új fiskális pozíció létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_incoterms_tree
 msgid "Create a new incoterm"
-msgstr ""
+msgstr "Új incoterm létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.product_product_action_purchasable
 msgid "Create a new purchasable product"
-msgstr ""
+msgstr "Új vásárolható termék léteehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_reconcile_model
 msgid "Create a new reconciliation model"
-msgstr ""
+msgstr "Hozzon létre egy új egyeztetési modellt"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_out_receipt_type
 msgid "Create a new sales receipt"
-msgstr ""
+msgstr "Új eladási jelentés készítése"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.product_product_action_sellable
 msgid "Create a new sellable product"
-msgstr ""
+msgstr "Új eladható termék létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
 msgid "Create a new supplier in your address book"
-msgstr ""
+msgstr "Hozzon létre új szállítót a címjegyzékben"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_tax_form
 msgid "Create a new tax"
-msgstr ""
+msgstr "Új adó létrehozása"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_invoice_type
@@ -3453,12 +3486,12 @@ msgstr "Szállítói számla létrehozása"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_refund_type
 msgid "Create a vendor credit note"
-msgstr ""
+msgstr "Egy eladói hitel cetli létrehozása"
 
 #. module: account
 #: model:ir.model,name:account.model_account_accrual_accounting_wizard
 msgid "Create accrual entry."
-msgstr ""
+msgstr "Hozzon létre eredményszemléletű bejegyzést."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.tax_adjustments_wizard
@@ -3482,14 +3515,16 @@ msgstr "Számla létrehozás"
 msgid ""
 "Create invoices, register payments and keep track of the discussions with "
 "your customers."
-msgstr ""
+msgstr "Készítsen számlákat, regisztrálja a kifizetéseket, és kövesse nyomon a
+az ügyfelek."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_invoice_type
 msgid ""
 "Create invoices, register payments and keep track of the discussions with "
 "your vendors."
-msgstr ""
+msgstr "Készítsen számlákat, regisztrálja a kifizetéseket, és kövesse nyomon a"
+"a szállítóid."
 
 #. module: account
 #. openerp-web
@@ -3501,7 +3536,7 @@ msgstr "Modell létrehozása"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.rounding_list_action
 msgid "Create the first cash rounding"
-msgstr ""
+msgstr "Első kézpénz kerekítő létrehozása"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__create_uid
@@ -3562,7 +3597,7 @@ msgstr "Létrehozta"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Created by: %s"
-msgstr ""
+msgstr "Készítette: %s"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__create_date
@@ -3633,12 +3668,12 @@ msgstr "Hitel kártya"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_reversal__refund_method
 msgid "Credit Method"
-msgstr ""
+msgstr "Hitel módszer"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile__credit_move_id
 msgid "Credit Move"
-msgstr ""
+msgstr "Hitel mozdulat"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -3652,12 +3687,12 @@ msgstr "Jóváírás"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Credit Note Created"
-msgstr ""
+msgstr "Jóváírás elkészítve"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__refund_sequence_id
 msgid "Credit Note Entry Sequence"
-msgstr ""
+msgstr "Jóváírás belépő szekvens"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_out_refund_type
@@ -3665,12 +3700,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Credit Notes"
-msgstr ""
+msgstr "Jóváírások"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__refund_sequence_number_next
 msgid "Credit Notes Next Number"
-msgstr ""
+msgstr "Jóváírások következő száma"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard__credit_account_id
@@ -3748,7 +3783,7 @@ msgstr "Ügyfél"
 #: model:ir.model.fields.selection,name:account.selection__account_move__type__out_refund
 #, python-format
 msgid "Customer Credit Note"
-msgstr ""
+msgstr "Vásárlói jóváírás"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__type__out_invoice
@@ -3792,7 +3827,7 @@ msgstr "Ügyfélportál webcíme"
 #: model:ir.model.fields,field_description:account.field_res_partner__customer_rank
 #: model:ir.model.fields,field_description:account.field_res_users__customer_rank
 msgid "Customer Rank"
-msgstr ""
+msgstr "Vásárlói rank"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_product_product__taxes_id
@@ -3803,14 +3838,14 @@ msgstr "Vásárlói értékesítést terhelő adók"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Customer/Vendor"
-msgstr ""
+msgstr "Vásárló/eladó"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Customer/Vendor Matching"
-msgstr ""
+msgstr "Vásárló/eladó összemérés"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.res_partner_action_customer
@@ -3829,22 +3864,22 @@ msgstr "Testreszabás"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.onboarding_invoice_layout_step
 msgid "Customize the look of your invoices."
-msgstr ""
+msgstr "Számládnak a kinezétének a sajátosítása"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_DAF
 msgid "DELIVERED AT FRONTIER"
-msgstr ""
+msgstr "KISZÁLLÍTVA A HATÁRNÁL"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_DAP
 msgid "DELIVERED AT PLACE"
-msgstr ""
+msgstr "KISZÁLLÍTVA A HELYNÉL"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_DAT
 msgid "DELIVERED AT TERMINAL"
-msgstr ""
+msgstr "KISZÁLLÍTVA A TERMINÁLNÁL"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_DDP
@@ -3854,32 +3889,32 @@ msgstr ""
 #. module: account
 #: model:account.incoterms,name:account.incoterm_DDU
 msgid "DELIVERED DUTY UNPAID"
-msgstr ""
+msgstr "KISZÁLLÍTVA KÖTELEZETTSÉG KIFIZETETTLEN"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_DEQ
 msgid "DELIVERED EX QUAY"
-msgstr ""
+msgstr "KISZÁLLÍTVA EX QUAY"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_DES
 msgid "DELIVERED EX SHIP"
-msgstr ""
+msgstr "KISZÁLLÍTVA EX HAJÓ"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_cash_rounding__rounding_method__down
 msgid "DOWN"
-msgstr ""
+msgstr "LENT"
 
 #. module: account
 #: model:ir.actions.server,name:account.action_check_hash_integrity
 msgid "Data Inalterability Check"
-msgstr ""
+msgstr "Az adatok megváltozhatatlanságának ellenőrzése"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Data consistency check"
-msgstr ""
+msgstr "Adat következtetési csekk"
 
 #. module: account
 #. openerp-web
@@ -3908,14 +3943,15 @@ msgstr "Dátum"
 msgid ""
 "Date at which the opening entry of this company's accounting has been "
 "posted."
-msgstr ""
+msgstr "A dátum, amikor a vállalat könyvelésének nyitó bejegyzése megtörtént
+„Írt.”"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
-msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+msgid "Date from which the accounting is managed in Odoo. It is the date of the "
 "opening entry."
-msgstr ""
+msgstr "Az a dátum, amelytől kezdve a könyvelést Odoo-ban vezetik. A számvitel időpontja"
+msgstr "bejegyzés megnyitása.""
 
 #. module: account
 #. openerp-web
@@ -3933,7 +3969,7 @@ msgstr "Dátumok"
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line__day_of_the_month
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_line_tree
 msgid "Day of the month"
-msgstr ""
+msgstr "A hónap napja"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line__day_of_the_month
@@ -3942,7 +3978,10 @@ msgid ""
 "negative, this value will be ignored, and no specific day will be set. If "
 "greater than the last day of a month, this number will instead select the "
 "last day of this month."
-msgstr ""
+msgstr "A hónap azon napja, amelyen a számla lejáratra esik. Ha nulla vagy"
+"negatív, ezt az értéket figyelmen kívül hagyjuk, és konkrét napot nem állítunk be. Ha"
+"nagyobb, mint egy hónap utolsó napja, ez a szám inkább a"
+"e hónap utolsó napja."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__debit
@@ -3953,7 +3992,7 @@ msgstr "Tartozik"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile__debit_move_id
 msgid "Debit Move"
-msgstr ""
+msgstr "tartozás mozdulat"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard__debit_account_id
@@ -3979,7 +4018,7 @@ msgstr "Tizedes elválasztó"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__refund_sequence
 msgid "Dedicated Credit Note Sequence"
-msgstr ""
+msgstr "Dedikált jóváírás szegmens"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__default_credit_account_id
@@ -3994,12 +4033,12 @@ msgstr "Alapértelmezett tartozik főkönyvi számla"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Default Incoterm of your company"
-msgstr ""
+msgstr "Alapértelmezett Incoterm vállalat"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__account_default_pos_receivable_account_id
 msgid "Default PoS Receivable Account"
-msgstr ""
+msgstr "Alapértelmezett PoS követelés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__account_purchase_tax_id
@@ -4024,7 +4063,7 @@ msgstr "Alapértelmezett adók"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__use_invoice_terms
 msgid "Default Terms & Conditions"
-msgstr ""
+msgstr "Alapértelmezett feltételek"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__invoice_terms
@@ -4035,18 +4074,18 @@ msgstr "Alapértelmezett követelmények és feltételek"
 #: model:ir.model.fields,field_description:account.field_res_company__incoterm_id
 #: model:ir.model.fields,field_description:account.field_res_config_settings__incoterm_id
 msgid "Default incoterm"
-msgstr ""
+msgstr "Alapvető incoterm"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Default taxes applied to local transactions"
-msgstr ""
+msgstr "A helyi ügyletekre alkalmazott nemteljesítési adók"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_product__supplier_taxes_id
 #: model:ir.model.fields,help:account.field_product_template__supplier_taxes_id
 msgid "Default taxes used when buying the product."
-msgstr ""
+msgstr "A termék megvásárlásánál alkalmazott alapértelmezett adók"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_product__taxes_id
@@ -4057,29 +4096,30 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_type_form
 msgid "Define a new account type"
-msgstr ""
+msgstr "A termék eladásakor alkalmazott alapértelmezett adók."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Define the smallest coinage of the currency used to pay by cash"
-msgstr ""
+msgstr "Adja meg a készpénzben történő fizetéshez használt valuta legkisebb pénzérmét"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.onboarding_fiscal_year_step
 msgid "Define your fiscal years &amp; tax returns periodicity."
-msgstr ""
+msgstr "Határozza meg költségvetési éveit & amp; adóbevallások rendszeressége."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__bank_statements_source
 msgid "Defines how the bank statements will be registered"
-msgstr ""
+msgstr "Meghatározza a bankszámlakivonatok regisztrálásának módját"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move__invoice_cash_rounding_id
 msgid ""
 "Defines the smallest coinage of the currency that can be used to pay by "
 "cash."
-msgstr ""
+msgstr ""Meghatározza a valuta legkisebb pénzérmét, amellyel fizetni lehet"
+készpénz."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_template_form
@@ -4164,7 +4204,10 @@ msgid ""
 "Determines where the tax is selectable. Note : 'None' means a tax can't be "
 "used by itself, however it can still be used in a group. 'adjustment' is "
 "used to perform tax adjustment."
-msgstr ""
+msgstr "
+"Meghatározza, hogy hol lehet az adót választani. Megjegyzés: A" Nincs "azt jelenti, hogy az adó nem lehet."
+"önmagában használják, azonban még használható csoportban. '' kiigazítás ''
+"adókorrekció elvégzésére szolgál.""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__difference
@@ -4194,7 +4237,8 @@ msgstr "Kivonat"
 msgid ""
 "Digitalize your scanned or PDF vendor bills with OCR and Artificial "
 "Intelligence"
-msgstr ""
+msgstr ""Digitalizálja a beolvasott vagy PDF-gyártó számláit OCR és Mesterséges formátumban"
+"Intelligencia"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -4272,12 +4316,12 @@ msgstr "Megjelenített név"
 #: model:ir.model.fields,field_description:account.field_res_company__qr_code
 #: model:ir.model.fields,field_description:account.field_res_config_settings__qr_code
 msgid "Display SEPA QR code"
-msgstr ""
+msgstr "SEPA QR Kód megjelenítése"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__display_type
 msgid "Display Type"
-msgstr ""
+msgstr "Megjelenítése típus"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_template__description
@@ -4336,13 +4380,13 @@ msgstr "Számla tervezet"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Draft Credit Note"
-msgstr ""
+msgstr "Jóváírás naplózása"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Draft Entry"
-msgstr ""
+msgstr "Belépő naplózása"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -4367,19 +4411,19 @@ msgstr "Tervezet állapotú fizetés"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Draft Purchase Receipt"
-msgstr ""
+msgstr "Vásárlási jelentés naplózása"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Draft Sales Receipt"
-msgstr ""
+msgstr "Eladási jelentés naplózása"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Draft Vendor Credit Note"
-msgstr ""
+msgstr "Eladói jóváírás naplózása"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_draft_tree
@@ -4396,7 +4440,7 @@ msgstr "Esedékes"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__residual
 msgid "Due Amount"
-msgstr ""
+msgstr "Mennyiség miatt"
 
 #. module: account
 #. openerp-web
@@ -4425,7 +4469,7 @@ msgstr "Esedékesség típusa"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_line_form
 msgid "Due the"
-msgstr ""
+msgstr "A miatt"
 
 #. module: account
 #: model:ir.actions.server,name:account.action_duplicate_account
@@ -4440,22 +4484,23 @@ msgstr "Duplikálás"
 msgid ""
 "Duplicated vendor reference detected. You probably encoded twice the same vendor bill/credit note:\n"
 "%s"
-msgstr ""
+msgstr ""Duplikált szállítói referencia észlelve. Valószínűleg kétszer ugyanazt a szállítói számlát / jóváírást kódolta: \ n"
+"% S"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_reports
 msgid "Dynamic Reports"
-msgstr ""
+msgstr "Dinamikus jelentések"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_l10n_eu_service
 msgid "EU Digital Goods VAT"
-msgstr ""
+msgstr "EU Digitálsi Jók VAT"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_EXW
 msgid "EX WORKS"
-msgstr ""
+msgstr "EX MUNKÁK"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:0
@@ -4498,17 +4543,17 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__invoice_is_email
 msgid "Email by default"
-msgstr ""
+msgstr "Email alapból"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Email your Invoices/Bills"
-msgstr ""
+msgstr "Emailezd a számláidat"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_cashbox__end_bank_stmt_ids
 msgid "End Bank Stmt"
-msgstr ""
+msgstr "Bank Stmt Befejezése"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_common_journal_report__date_to
@@ -4536,7 +4581,7 @@ msgstr "Kassza zárás"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_fiscal_year__date_to
 msgid "Ending Date, included in the fiscal year."
-msgstr ""
+msgstr "Záró dátum, a fiskális évvel együtt"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_line_form
@@ -4552,13 +4597,13 @@ msgstr "Bejegyzések rendezése ezzel"
 #: code:addons/account/models/company.py:0
 #, python-format
 msgid "Entries are hashed from %s (%s)"
-msgstr ""
+msgstr "A tételek kivonatoltak a %ss (%s)-ből"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Entries are not from the same account."
-msgstr ""
+msgstr "A tételek nem ugyanazon fiókról származnak"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -4600,7 +4645,7 @@ msgstr "Hiba!"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__euro
 msgid "European"
-msgstr ""
+msgstr "Euarópai"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__decimal_separator
@@ -4609,11 +4654,13 @@ msgid ""
 "Every character that is nor a digit nor this separator will be removed from "
 "the matching string"
 msgstr ""
+Minden karakter, amely sem szám, sem ez az elválasztó, eltávolításra kerül."
+"a megfelelő húr"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Exception Activities"
-msgstr ""
+msgstr "Kivételi tevékenységek"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:0
@@ -4630,17 +4677,17 @@ msgstr "Árfolyam nyereség vagy veszteség napló"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_full_reconcile__exchange_move_id
 msgid "Exchange Move"
-msgstr ""
+msgstr "Átváltási mozdulat"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__exclude_from_invoice_tab
 msgid "Exclude From Invoice Tab"
-msgstr ""
+msgstr "Tab-ból való kiszedés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_group__excluded_journal_ids
 msgid "Excluded Journals"
-msgstr ""
+msgstr "Napló kiszedése"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__expects_chart_of_accounts
@@ -4673,7 +4720,7 @@ msgstr "Beszerzés főkönyvi számla a terméksablonban"
 #: model:ir.model.fields,field_description:account.field_account_accrual_accounting_wizard__expense_accrual_account
 #: model:ir.model.fields,field_description:account.field_res_company__expense_accrual_account_id
 msgid "Expense Accrual Account"
-msgstr ""
+msgstr "Kiadási eredményszemléletű fiók"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_expenses
@@ -4692,34 +4739,36 @@ msgstr "Külső hivatkozás"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "External link"
-msgstr ""
+msgstr "Külső link"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_FAS
 msgid "FREE ALONGSIDE SHIP"
-msgstr ""
+msgstr " SZABADULJATOK A HAJÓ MELLETT"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_FCA
 msgid "FREE CARRIER"
-msgstr ""
+msgstr "SZABAD SZÁLLÍTÓ"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_FOB
 msgid "FREE ON BOARD"
-msgstr ""
+msgstr "SZABAD A FEDÉLZETEN"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line__factor
 msgid "Factor Ratio"
-msgstr ""
+msgstr "Faktor Arány"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__factor
 msgid ""
 "Factor to apply on the account move lines generated from this repartition "
 "line"
-msgstr ""
+msgstr "
+"Tényező, amelyet alkalmazni kell az ezen megosztásból generált számlamozgatási sorokon"
+"vonal""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_repartition_line__factor_percent
@@ -4727,7 +4776,9 @@ msgstr ""
 msgid ""
 "Factor to apply on the account move lines generated from this repartition "
 "line, in percents"
-msgstr ""
+msgstr "
+"Tényező, amelyet alkalmazni kell az ezen megosztásból generált számlamozgatási sorokon"
+"sor, százalékban""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_search
@@ -4750,7 +4801,7 @@ msgstr "Szövetségi Államok"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Filter on account, label, partner, amount,..."
-msgstr ""
+msgstr "Szűrés a fiókra, címkére, partnerre, összegre, .."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_line__general_account_id
@@ -4761,17 +4812,17 @@ msgstr "Pénzügyi számviteli számla"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line_template__tag_ids
 msgid "Financial Tags"
-msgstr ""
+msgstr "Finanszírozási tag-ek"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "First Entry"
-msgstr ""
+msgstr "Első tétel"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "First Hash"
-msgstr ""
+msgstr "Első hash"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
@@ -4781,7 +4832,7 @@ msgstr "Költségvetési információ"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Fiscal Localization"
-msgstr ""
+msgstr "Fiskális lokalizáció"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_account_template__position_id
@@ -4791,7 +4842,7 @@ msgstr "ÁFA pozíció leképezés"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Fiscal Periods"
-msgstr ""
+msgstr "Fiskális időszakok"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_fiscal_position_template_form
@@ -4832,19 +4883,19 @@ msgstr "Üzleti év"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.action_account_fiscal_year_form
 msgid "Fiscal Year 2018"
-msgstr ""
+msgstr "Fiskális év 2018"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.setup_financial_year_opening_form
 msgid "Fiscal Year End"
-msgstr ""
+msgstr "Fiskális év vége"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.actions_account_fiscal_year
 #: model:ir.model.fields,field_description:account.field_res_config_settings__group_fiscal_year
 #: model_terms:ir.ui.view,arch_db:account.setup_financial_year_opening_form
 msgid "Fiscal Years"
-msgstr ""
+msgstr "Fiskál évek"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move__fiscal_position_id
@@ -4852,19 +4903,23 @@ msgid ""
 "Fiscal positions are used to adapt taxes and accounts for particular "
 "customers or sales orders/invoices. The default value comes from the "
 "customer."
-msgstr ""
+msgstr "
+"A költségvetési pozíciókat az adók és a számlák adaptálására használják"
+"vevők vagy értékesítési megrendelések / számlák. Az alapértelmezett érték a"
+"vevő."
+"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op__fiscalyear_last_day
 #: model:ir.model.fields,field_description:account.field_res_company__fiscalyear_last_day
 msgid "Fiscalyear Last Day"
-msgstr ""
+msgstr "Fiskál év utolsó nap"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op__fiscalyear_last_month
 #: model:ir.model.fields,field_description:account.field_res_company__fiscalyear_last_month
 msgid "Fiscalyear Last Month"
-msgstr ""
+msgstr "Fiskál év utolsó hónap"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__amount_type__fixed
@@ -4925,12 +4980,12 @@ msgstr "Követők (Partnerek)"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__inbound_payment_method_ids
 msgid "For Incoming Payments"
-msgstr ""
+msgstr "Bejövő fizetésekre"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__outbound_payment_method_ids
 msgid "For Outgoing Payments"
-msgstr ""
+msgstr "Kimenő fizetésekre"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line__value_amount
@@ -4941,19 +4996,19 @@ msgstr "A százalékhoz adjon meg egy 0-100 közti arányszám értéket."
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_non_accountable_fields_null
 msgid ""
 "Forbidden unit price, account and quantity on non-accountable invoice line"
-msgstr ""
+msgstr "Tilos egységár, számla és mennyiség a nem elszámoltatható számla soron"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__force_second_tax_included
 #: model:ir.model.fields,help:account.field_account_reconcile_model_template__force_second_tax_included
 msgid "Force the second tax to be managed as a price included tax."
-msgstr ""
+msgstr "Kényszerítse a második adót az áfával együtt kezelve."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__force_tax_included
 #: model:ir.model.fields,help:account.field_account_reconcile_model_template__force_tax_included
 msgid "Force the tax to be managed as a price included tax."
-msgstr ""
+msgstr "Kényszerítse az adót az áfával együtt kezelve."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__currency_id
@@ -4970,14 +5025,14 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__always_set_currency_id
 msgid "Foreign Currency"
-msgstr ""
+msgstr "Külföldi valuta"
 
 #. module: account
 #: code:addons/account/report/account_aged_partner_balance.py:0
 #: code:addons/account/report/account_journal.py:0
 #, python-format
 msgid "Form content is missing, this report cannot be printed."
-msgstr ""
+msgstr "Hiányzik az űrlap tartalma, ezt a jelentést nem lehet kinyomtatni."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_report_line__formula
@@ -5010,14 +5065,14 @@ msgstr "Kintlévőség számlákról"
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__amount_type__regex
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__second_amount_type__regex
 msgid "From label"
-msgstr ""
+msgstr "Címkéről"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "From now on, you may want to:"
-msgstr ""
+msgstr "Mostantól, azt akarod csinálni, hogy"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_invoice_report_all_supp
@@ -5045,7 +5100,7 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "From: "
-msgstr ""
+msgstr "-tól, -ról"
 
 #. module: account
 #: model:ir.model,name:account.model_account_full_reconcile
@@ -5056,12 +5111,12 @@ msgstr "Teljes párosítás"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move_reversal__refund_method__cancel
 msgid "Full Refund"
-msgstr ""
+msgstr "Teljes visszatérítés"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move_reversal__refund_method__modify
 msgid "Full refund and new draft invoice"
-msgstr ""
+msgstr "Teljes visszatérítés, és új számla piszkozat"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
@@ -5090,28 +5145,28 @@ msgstr "Ismétlődő tételek automatikus előállítása"
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid "Generated Documents"
-msgstr ""
+msgstr "Generált dokumentumok"
 
 #. module: account
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #, python-format
 msgid "Generated Entries"
-msgstr ""
+msgstr "Generált tételek"
 
 #. module: account
 #: model:ir.ui.menu,name:account.account_reports_legal_statements_menu
 msgid "Generic Statements"
-msgstr ""
+msgstr "Átlagos állítások"
 
 #. module: account
 #: model:ir.model,name:account.model_report_account_report_hash_integrity
 msgid "Get hash integrity result as PDF."
-msgstr ""
+msgstr "A hash integritás eredményét PDF formátumban kaphatja meg."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Get warnings when invoicing specific customers"
-msgstr ""
+msgstr "Figyelmeztetéseket kaphat, amikor bizonyos ügyfelek számlázik"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -5120,7 +5175,11 @@ msgid ""
 "click, using Yodlee and Plaid services. Once installed, set “Bank Feeds” to "
 "“Bank Synchronization” in bank account settings. Then, click “Configure” on "
 "the online account to enter your bank credentials."
-msgstr ""
+msgstr "
+"A bankszámlakivonatok automatikusan importálhatók 4 óránként, vagy egyben"
+"kattintson a Yodlee és a Plaid szolgáltatások használatával. A telepítés után állítsa a" Bank hírcsatornákat "értékre"
+"" Bank szinkronizálás "a bankszámla beállításaiban. Ezután kattintson a" Konfigurálás "gombra a"
+"az online számla a banki hitelesítő adatok megadásához.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__sequence
@@ -5132,14 +5191,14 @@ msgstr "Megadja a bankkivonat sorok listázási sorrendjét."
 #: model:ir.model.fields,help:account.field_account_payment_term_line__sequence
 msgid ""
 "Gives the sequence order when displaying a list of payment terms lines."
-msgstr ""
+msgstr "A sorrend sorrendet ad, ha megjelenik a fizetési feltételek sorának listája."
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Go to bank statement(s)"
-msgstr ""
+msgstr "Bank Állításokra ugrás"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -5152,7 +5211,7 @@ msgstr "Menjen a beállítások panelhez"
 #: code:addons/account/models/company.py:0
 #, python-format
 msgid "Go to the journal configuration"
-msgstr ""
+msgstr "Naplózási beállításokra való ugrás"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_partner__trust__good
@@ -5189,7 +5248,7 @@ msgstr "Csoportosítás"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_register__group_payment
 msgid "Group Payment"
-msgstr ""
+msgstr "Fizetési csoportosítás"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_tax__amount_type__group
@@ -5200,48 +5259,48 @@ msgstr "Adók csoportja"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Group payments into a single batch to ease the reconciliation process"
-msgstr ""
+msgstr "A kifizetéseket egyetlen tételre csoportosíthatja az egyeztetési folyamat megkönnyítése érdekében"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_cash_rounding__rounding_method__half-up
 msgid "HALF-UP"
-msgstr ""
+msgstr "FELET-FÖL"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__has_accounting_entries
 msgid "Has Accounting Entries"
-msgstr ""
+msgstr "Fiókolási tételei vannak"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__has_invoices
 msgid "Has Invoices"
-msgstr ""
+msgstr "Vannak számlái"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__has_reconciled_entries
 msgid "Has Reconciled Entries"
-msgstr ""
+msgstr "Összehangolta a bejegyzéseket"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__has_unreconciled_entries
 #: model:ir.model.fields,field_description:account.field_res_users__has_unreconciled_entries
 msgid "Has Unreconciled Entries"
-msgstr ""
+msgstr "Nem hangolta össze a bejegyzéseket"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__qr_code_valid
 msgid "Has all required arguments"
-msgstr ""
+msgstr "Minden szükséges feltétellel rendelkezik"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Hash Integrity Result -"
-msgstr ""
+msgstr "Hash Integritási eredmény"
 
 #. module: account
 #: model:ir.actions.report,name:account.action_report_account_hash_integrity
 msgid "Hash integrity result PDF"
-msgstr ""
+msgstr "Hash Integritási eredmény PDF"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__hide_payment_method
@@ -5251,7 +5310,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__hide_tax_exigibility
 msgid "Hide Use Cash Basis Option"
-msgstr ""
+msgstr "Bújtatás, használjon kézpénz alapú beállítást"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
@@ -5261,7 +5320,7 @@ msgstr "Előzmények"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "How total tax amount is computed in orders and invoices"
-msgstr ""
+msgstr "Hogyan számítják ki az adó teljes összegét a megrendelésekben és a számlákon?"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__id
@@ -5343,7 +5402,7 @@ msgstr "Ikon"
 #: model:ir.model.fields,help:account.field_account_move__activity_exception_icon
 #: model:ir.model.fields,help:account.field_account_payment__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Ikon kivételes tevékenységet jelöl."
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -5405,7 +5464,9 @@ msgstr ""
 msgid ""
 "If set, the accounting entries created during the bank statement reconciliation process will be created at this date.\n"
 "This is useful if the accounting period in which the entries should normally be booked is already closed."
-msgstr ""
+msgstr "
+"Ha be van állítva, akkor a bankszámlakivonatok egyeztetése során létrehozott könyvelési tételek ezen a napon készülnek. \ N"
+"Ez akkor hasznos, ha a számviteli időszak, amelyben a bejegyzéseket általában könyvelni kell, már lezárult.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__analytic
@@ -5423,14 +5484,19 @@ msgstr ""
 msgid ""
 "If tags are defined for a tax report line, only two are allowed on it: a "
 "positive and a negative one."
-msgstr ""
+msgstr "
+"Ha címkék vannak megadva egy adójelentési sor számára, akkor csak kettő engedhető meg rajta: a"
+"pozitív és negatív".
+"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term__active
 msgid ""
 "If the active field is set to False, it will allow you to hide the payment "
 "terms without removing it."
-msgstr ""
+msgstr "
+"Ha az aktív mező értéke False, akkor lehetővé teszi a befizetés elrejtését"
+"kifejezések eltávolítása nélkül.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move__to_check
@@ -5438,14 +5504,19 @@ msgid ""
 "If this checkbox is ticked, it means that the user was not sure of all the "
 "related informations at the time of the creation of the move and that the "
 "move needs to be checked again."
-msgstr ""
+msgstr "
+"Ha ez a jelölőnégyzet be van jelölve, ez azt jelenti, hogy a felhasználó nem volt biztos benne az összes"
+"kapcsolódó információk a lépés létrehozásának idején, és hogy"
+"újra kell ellenőrizni a mozgást.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move__auto_post
 msgid ""
 "If this checkbox is ticked, this entry will be automatically posted at its "
 "date."
-msgstr ""
+msgstr "
+"Ha ezt a jelölőnégyzetet bejelöli, akkor ezt a bejegyzést automatikusan a"
+"dátum.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__restrict_mode_hash_table
@@ -5453,26 +5524,30 @@ msgstr ""
 msgid ""
 "If ticked, the accounting entry or invoice receives a hash as soon as it is "
 "posted and cannot be modified anymore."
-msgstr ""
+msgstr "
+"Ha bejelölte, a számviteli bejegyzés vagy a számla azonnal megkapja a hash-ot,"
+"feladva, és már nem módosítható.""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "If you check this box, you will be able to collect payments using SEPA "
 "Direct Debit mandates."
-msgstr ""
+msgstr ""Ha bejelöli ezt a négyzetet, akkor a SEPA használatával gyűjtheti be a kifizetéseket."
+"Közvetlen terhelés.""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "If you check this box, you will be able to register your payment using SEPA."
-msgstr ""
+msgstr "
+"Ha bejelöli ezt a négyzetet, akkor a SEPA segítségével regisztrálhatja fizetését.""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.open_account_journal_dashboard_kanban
 msgid ""
 "If you have not installed a chart of account, please install one first.<br>"
-msgstr ""
+msgstr "Ha még nem telepítette a számlakertet, kérjük, először telepítse azt. <br>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_unreconcile_view
@@ -5490,7 +5565,9 @@ msgstr ""
 msgid ""
 "If you want to use \"Off-Balance Sheet\" accounts, all the accounts of the "
 "journal entry must be of this type"
-msgstr ""
+msgstr "
+"Ha \" Mérlegen kívüli \ "fiókokat szeretne használni, akkor a"
+"a naplóbejegyzésnek ilyen típusúnak kell lennie""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -5500,7 +5577,12 @@ msgid ""
 "located. Digital goods are defined in the legislation as broadcasting, "
 "telecommunications, and services that are electronically supplied instead of"
 " shipped. Gift cards sent online are not included in the definition."
-msgstr ""
+msgstr "
+"Ha digitális termékeket értékesít az EU ügyfeleinek, akkor héát kell fizetnie."
+"az ügyfelek tartózkodási helyétől függően. Ez a szabály az ön helyzetétől függetlenül érvényes"
+"található. A digitális termékeket a jogszabályok sugárzásként határozzák meg"
+"telekommunikáció és szolgáltatások, amelyeket elektronikusan nyújtanak ahelyett, hogy"
+"szállítva. Az online küldött ajándékkártyák nem szerepelnek a meghatározásban.""
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_immediate
@@ -5525,39 +5607,39 @@ msgstr "Import .ofx fájl formátumban"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_bank_statement_import_camt
 msgid "Import in CAMT.053 format"
-msgstr ""
+msgstr "Import in CAMT.053 formátumban"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Import your bank statements automatically"
-msgstr ""
+msgstr "A bankszámlakivonatok automatikus importálása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Import your bank statements in CAMT.053"
-msgstr ""
+msgstr "Importálja bankszámlakivonatait a CAMT.053 alkalmazásba"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Import your bank statements in CSV"
-msgstr ""
+msgstr "Importálja bankszámlakivonatait a CSV-be"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Import your bank statements in OFX"
-msgstr ""
+msgstr "Importálja bankszámlakivonatait a OFX-be"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Import your bank statements in QIF"
-msgstr ""
+msgstr "Importálja bankszámlakivonatait a QIF-be"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__invoice_payment_state__in_payment
 #: model:ir.model.fields.selection,name:account.selection__account_move__invoice_payment_state__in_payment
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
 msgid "In Payment"
-msgstr ""
+msgstr "Fizetésben"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -5587,17 +5669,17 @@ msgstr "Inaktív"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__inalterable_hash
 msgid "Inalterability Hash"
-msgstr ""
+msgstr "Változatlanság Hash"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Inalterability check"
-msgstr ""
+msgstr "Változatlanság kipipálás"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__secure_sequence_number
 msgid "Inalteralbility No Gap Sequence #"
-msgstr ""
+msgstr "Változatlanság lyukatlan szekvens"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_payment_method__payment_type__inbound
@@ -5644,7 +5726,9 @@ msgstr "Árbevétel főkönyvi számla a terméksablonban"
 msgid ""
 "Incorrect fiscal year date: day is out of range for month. Month: %s; Day: "
 "%s"
-msgstr ""
+msgstr "
+"Helytelen pénzügyi év dátuma: a nap a hónap tartományán kívül esik. Hónap:% s; Nap:"
+"% S""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_incoterm_id
@@ -5682,12 +5766,13 @@ msgstr ""
 msgid ""
 "Incoterms are used to divide transaction costs and responsibilities between "
 "buyer and seller."
-msgstr ""
+msgstr "Az incoterms-eket a tranzakciós költségek és a felelősség megosztására használják "
+"vevő és eladó.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__tax_line_id
 msgid "Indicates that this journal item is a tax line"
-msgstr ""
+msgstr "Jelzi, hogy ez a napló tétel adósor"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_form
@@ -5708,12 +5793,12 @@ msgstr "Főkönyvi számla a készletkönyveléshez"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Insert your terms & conditions here..."
-msgstr ""
+msgstr "Illeszd be ide a feltételeidet"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Install More Packages"
-msgstr ""
+msgstr "Több csomag telepítése"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__transfer_account_id
@@ -5733,7 +5818,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_account__internal_group
 #: model:ir.model.fields,field_description:account.field_account_account_type__internal_group
 msgid "Internal Group"
-msgstr ""
+msgstr "belső csoportok"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__narration
@@ -5794,7 +5879,7 @@ msgstr "Valótlan  \"Irányítószám tartomány\", kérem állítsa be megfelel
 #: code:addons/account/models/company.py:0
 #, python-format
 msgid "Invalid fiscal year last day"
-msgstr ""
+msgstr "HIbás fiskál év tegnap"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__invoice_warn
@@ -5834,22 +5919,22 @@ msgstr "Számla kelte"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_filter_type_domain
 msgid "Invoice Filter Type Domain"
-msgstr ""
+msgstr "Számlta filter típus régió"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_has_matching_suspense_amount
 msgid "Invoice Has Matching Suspense Amount"
-msgstr ""
+msgstr "A számla megfelelő felfüggesztő összeggel rendelkezik"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_has_outstanding
 msgid "Invoice Has Outstanding"
-msgstr ""
+msgstr "Számlának van kiemelkedése"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.onboarding_invoice_layout_step
 msgid "Invoice Layout"
-msgstr ""
+msgstr "Számla külalak"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -5859,32 +5944,32 @@ msgstr "Számlasorok"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_payment
 msgid "Invoice Online Payment"
-msgstr ""
+msgstr "Számla online fizetés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_outstanding_credits_debits_widget
 msgid "Invoice Outstanding Credits Debits Widget"
-msgstr ""
+msgstr "A számlán kívüli hitelek terhelési modulja"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_partner_display_name
 msgid "Invoice Partner Display Name"
-msgstr ""
+msgstr "Számla partner kiírt neve"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_partner_icon
 msgid "Invoice Partner Icon"
-msgstr ""
+msgstr "Számla partner ikon"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_payments_widget
 msgid "Invoice Payments Widget"
-msgstr ""
+msgstr "Számla fizetés modul"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_sent
 msgid "Invoice Sent"
-msgstr ""
+msgstr "Számla elküldve"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__state
@@ -5903,14 +5988,17 @@ msgstr "Számla adó"
 msgid ""
 "Invoice and credit note repartition should each contain exactly one line for"
 " the base."
-msgstr ""
+msgstr "
+"A számla és a jóváírás megoszlásának pontosan egy sort kell tartalmaznia a"
+" az alap.""
 
 #. module: account
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid ""
 "Invoice and credit note repartition should have the same number of lines."
-msgstr ""
+msgstr "
+"A számla és a jóváírási megjegyzés újraszámításának azonos számú sorral kell rendelkeznie.""
 
 #. module: account
 #: code:addons/account/models/account.py:0
@@ -5918,12 +6006,14 @@ msgstr ""
 msgid ""
 "Invoice and credit note repartitions should match (same percentages, in the "
 "same order)."
-msgstr ""
+msgstr "
+"A számla és a jóváírás megoszlásának egyeznie kell (ugyanazok a százalékok, a"
+"ugyanabban a sorrendben.""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_line_ids
 msgid "Invoice lines"
-msgstr ""
+msgstr "Számlázási sorok"
 
 #. module: account
 #: model:mail.message.subtype,description:account.mt_invoice_paid
@@ -5933,7 +6023,7 @@ msgstr "Kifizetett számla"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_send_wizard_form
 msgid "Invoice send & Print"
-msgstr ""
+msgstr "Számla küldés&nyomtatás"
 
 #. module: account
 #: model:mail.message.subtype,description:account.mt_invoice_validated
@@ -5943,14 +6033,16 @@ msgstr "Számla  jóváhagyva"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_date
 msgid "Invoice/Bill Date"
-msgstr ""
+msgstr "Számla dátuma"
 
 #. module: account
 #: model:mail.template,report_name:account.email_template_edi_invoice
 msgid ""
 "Invoice_${(object.name or '').replace('/','_')}${object.state == 'draft' and"
 " '_draft' or ''}"
-msgstr ""
+msgstr "
+"Számla _ $ {(objektum.név vagy '') .replace ('/', '_')} $ {object.state == 'vázlat' és"
+"'_draft' vagy ''}""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
@@ -5979,7 +6071,7 @@ msgstr "Számlák"
 #: model_terms:ir.ui.view,arch_db:account.portal_my_home_invoice
 #: model_terms:ir.ui.view,arch_db:account.portal_my_home_menu_invoice
 msgid "Invoices &amp; Bills"
-msgstr ""
+msgstr "Számla &amp; számlák"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_invoice_report_all
@@ -5995,7 +6087,7 @@ msgstr "Számlák elemzése"
 #: code:addons/account/models/chart_template.py:0
 #, python-format
 msgid "Invoices Matching Rule"
-msgstr ""
+msgstr "Számla összemérés szabály"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_report
@@ -6011,17 +6103,17 @@ msgstr "Számlák melyekkel tartoznak"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Invoices to Validate"
-msgstr ""
+msgstr "Számlák érvényesítése"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__reconciled_invoice_ids
 msgid "Invoices whose journal items have been reconciled with these payments."
-msgstr ""
+msgstr "Számlák, amelyek naplózási tételeit összeegyeztették ezekkel a kifizetésekkel."
 
 #. module: account
 #: model:ir.actions.report,name:account.account_invoices_without_payment
 msgid "Invoices without Payment"
-msgstr ""
+msgstr "Számlák fizetés nélkül"
 
 #. module: account
 #: model:ir.ui.menu,name:account.account_invoicing_menu
@@ -6036,7 +6128,7 @@ msgstr "Számlázás"
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__match_amount__between
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_amount__between
 msgid "Is Between"
-msgstr ""
+msgstr "Köztük van"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__message_is_follower
@@ -6050,23 +6142,23 @@ msgstr "Követő"
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__match_amount__greater
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_amount__greater
 msgid "Is Greater Than"
-msgstr ""
+msgstr "Nagyobb mint"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__match_amount__lower
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_amount__lower
 msgid "Is Lower Than"
-msgstr ""
+msgstr "Kisebb mint"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__printed
 msgid "Is Printed"
-msgstr ""
+msgstr "Kinyomtatott"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__is_rounding_line
 msgid "Is Rounding Line"
-msgstr ""
+msgstr "Kerekítő vonal"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__is_difference_zero
@@ -6088,7 +6180,7 @@ msgstr "Tartozik összegek alapértelmezett főkönyvi számlája"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__alias_name
 msgid "It creates draft invoices and bills by sending an email."
-msgstr ""
+msgstr "E-mail küldésével készít számlázási tervezeteket és számlákat."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move__invoice_sent
@@ -6172,7 +6264,7 @@ msgstr "Könyvelési tételek"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
 msgid "Journal Entries by Date"
-msgstr ""
+msgstr "Naplózási tételek dátum szerint"
 
 #. module: account
 #. openerp-web
@@ -6202,7 +6294,7 @@ msgstr "Napló tétel száma"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal_group__name
 msgid "Journal Group"
-msgstr ""
+msgstr "Napló csoport"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_journal_group_list
@@ -6210,7 +6302,7 @@ msgstr ""
 #: model:ir.ui.menu,name:account.menu_action_account_journal_group_list
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_group_form
 msgid "Journal Groups"
-msgstr ""
+msgstr "Napló csoportok"
 
 #. module: account
 #: model:ir.model,name:account.model_account_move_line
@@ -6257,7 +6349,7 @@ msgstr "Könyvelési napló tételsorok"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_line_select_tax_audit
 msgid "Journal Items for Tax Audit"
-msgstr ""
+msgstr "Folyóirat tételek az adóellenőrzéshez"
 
 #. module: account
 #. openerp-web
@@ -6275,7 +6367,7 @@ msgstr "Napló neve"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_journal_group_list
 msgid "Journal group are used in reporting to display relevant data together."
-msgstr ""
+msgstr "A naplócsoportokat használják a jelentésekben a releváns adatok együttes megjelenítéséhez."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
@@ -6286,19 +6378,21 @@ msgstr "Napló tételek ahol egyeztetett számok nincsenek beállítva"
 #: model:ir.model.fields,help:account.field_account_accrual_accounting_wizard__journal_id
 #: model:ir.model.fields,help:account.field_res_company__accrual_default_journal_id
 msgid "Journal used by default for moving the period of an entry"
-msgstr ""
+msgstr "A napló alapértelmezés szerint a bejegyzés periódusa"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__account_opening_journal_id
 msgid ""
 "Journal where the opening entry of this company's accounting has been "
 "posted."
-msgstr ""
+msgstr "
+"Napló, ahol a vállalat könyvelésének nyitó bejegyzése található"
+„Írt.”"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__journal_currency_id
 msgid "Journal's Currency"
-msgstr ""
+msgstr "Naplózók valutája"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_journal_form
@@ -6315,12 +6409,12 @@ msgstr "Naplók"
 #. module: account
 #: model:ir.actions.report,name:account.action_report_journal
 msgid "Journals Audit"
-msgstr ""
+msgstr "Folyóiratok ellenőrzése"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__json_activity_data
 msgid "Json Activity Data"
-msgstr ""
+msgstr "Json Activity Adat"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__7
@@ -6342,7 +6436,7 @@ msgstr "Június"
 #: model:ir.model.fields.selection,name:account.selection__res_company__account_setup_coa_state__just_done
 #: model:ir.model.fields.selection,name:account.selection__res_company__account_setup_fy_data_state__just_done
 msgid "Just done"
-msgstr ""
+msgstr "Kész van"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard__reason
@@ -6352,12 +6446,12 @@ msgstr "Indoklás"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__kanban_dashboard
 msgid "Kanban Dashboard"
-msgstr ""
+msgstr "kanban műszerfal"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__kanban_dashboard_graph
 msgid "Kanban Dashboard Graph"
-msgstr ""
+msgstr "kanban műszerfal ábra"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
@@ -6374,7 +6468,7 @@ msgstr "Hagyja nyitva"
 #: model:ir.model.fields,help:account.field_product_template__property_account_income_id
 msgid ""
 "Keep this field empty to use the default value from the product category."
-msgstr ""
+msgstr "Tartsa üresen ezt a mezőt a termékkategória alapértelmezett értékének használatához."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_product__property_account_expense_id
@@ -6383,12 +6477,15 @@ msgid ""
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
 "expense account on the product category will be used."
-msgstr ""
+msgstr "
+"Tartsa üresen ezt a mezőt a termékkategória alapértelmezett értékének használatához. Ha"
+"az anglo-szász számvitel automatikus értékelési módszerrel konfigurálva van,"
+"a termékkategória költségszámláját fogjuk használni.""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_digest_digest__kpi_account_total_revenue_value
 msgid "Kpi Account Total Revenue Value"
-msgstr ""
+msgstr "Kpi számla teljes bevételi értéke"
 
 #. module: account
 #. openerp-web
@@ -6409,7 +6506,7 @@ msgstr "Felirat"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_label_param
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_label_param
 msgid "Label Parameter"
-msgstr ""
+msgstr "Felirat paraméter"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__description
@@ -6419,12 +6516,12 @@ msgstr "Felirat a számlákon"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Last Entry"
-msgstr ""
+msgstr "Utolsó tétel"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_hash_integrity
 msgid "Last Hash"
-msgstr ""
+msgstr "Utolsó hash"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account____last_update
@@ -6493,7 +6590,7 @@ msgstr "Legutóbb frissítve"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Last Reconciliation:"
-msgstr ""
+msgstr "Utolsó egyeztetés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__write_uid
@@ -6638,7 +6735,7 @@ msgstr "Elrendezés"
 #. module: account
 #: model:ir.ui.menu,name:account.menu_finance_entries_accounting_ledgers
 msgid "Ledgers"
-msgstr ""
+msgstr "jelennek meg"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_position_form
@@ -6659,14 +6756,14 @@ msgstr "Befizetésekkel csökkentet"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Let your customers pay their invoices online"
-msgstr ""
+msgstr "Hagyd az ügyfeleidet befizetni a számláikat online"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/js/account_selection.js:0
 #, python-format
 msgid "Liabilities"
-msgstr ""
+msgstr "kötelezettségek"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__liability
@@ -6677,28 +6774,29 @@ msgstr "Passzívák"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__nbr_lines
 msgid "Line Count"
-msgstr ""
+msgstr "Sor számlálás"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__show_line_subtotals_tax_selection
 msgid "Line Subtotals Tax Display"
-msgstr ""
+msgstr "Vonal részösszegek adó kijelzője"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Line subtotals tax display"
-msgstr ""
+msgstr "Vonal részösszegek adó kijelzője"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Lines from \"Off-Balance Sheet\" accounts cannot be reconciled"
-msgstr ""
+msgstr "
+A \ "Mérlegen kívüli \" számlák sorai nem egyeztethetők"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_report_line__children_line_ids
 msgid "Lines that should be rendered as children of this one"
-msgstr ""
+msgstr "Vonalak, amelyeket ennek a gyermeknek kell megjeleníteni"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__type__liquidity
@@ -6710,7 +6808,7 @@ msgstr "Likviditási"
 #: code:addons/account/models/chart_template.py:0
 #, python-format
 msgid "Liquidity Transfer"
-msgstr ""
+msgstr "Likviditási átvitel"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_chart_template__tax_template_ids
@@ -6722,7 +6820,7 @@ msgstr "Az összes adó listája, amelyet be kell állítani a varázslónak."
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Load more"
-msgstr ""
+msgstr "Tölts be többet"
 
 #. module: account
 #. openerp-web
@@ -6745,7 +6843,7 @@ msgstr "Lezárási dátum a nem-könyvelők részére"
 #: model:ir.model.fields,field_description:account.field_account_journal__restrict_mode_hash_table
 #: model:ir.model.fields,field_description:account.field_account_move__restrict_mode_hash_table
 msgid "Lock Posted Entries with Hash"
-msgstr ""
+msgstr "Posztolt tételet lezárása hash-el"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__is_log
@@ -6755,7 +6853,7 @@ msgstr "Belső megjegyzés rögzítése"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.onboarding_invoice_layout_step
 msgid "Looks great!"
-msgstr ""
+msgstr "Jól néz ki"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -6783,7 +6881,7 @@ msgstr "Különb."
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__mail_activity_type_id
 msgid "Mail Activity Type"
-msgstr ""
+msgstr "Levelezési aktivitás típus"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__mailing_list_ids
@@ -6806,7 +6904,7 @@ msgstr "A vállalkozás fő pénzneme."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Main currency of your company"
-msgstr ""
+msgstr "A céged fő bejövetele"
 
 #. module: account
 #: model:ir.ui.menu,name:account.account_management_menu
@@ -6826,7 +6924,7 @@ msgstr "Kézi"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Manual Operations"
-msgstr ""
+msgstr "Kézi operációk"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
@@ -6834,7 +6932,10 @@ msgid ""
 "Manual: Get paid by cash, check or any other method outside of Odoo.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
-msgstr ""
+msgstr "
+"Kézi: Készpénzben, csekkekkel vagy bármely más módszerrel fizethetünk Odoo-n kívül. \ N"
+"Elektronikus: automatikus fizetés a fizetés megszerzőjén keresztül az ügyfél által online vásárláskor vagy előfizetéskor elmentett kártyán történő tranzakció igénylésével (fizetési token). \ N"
+"Kötegelt befizetés: Több ügyfél-ellenőrzést vonhat le egyszerre egy kötegelt betét előállításával, amelyet benyújtani kell a banknak. Ha a bankszámlakivonatot kódolja az Odoo-ban, javasoljuk, hogy egyeztesse a tranzakciót a kötegelt befizetéssel. Engedélyezze ezt a lehetőséget a beállításokból.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
@@ -6845,7 +6946,12 @@ msgid ""
 "Check: Pay bill by check and print it from Odoo.\n"
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
-msgstr ""
+msgstr "
+"Kézi: Készpénzben, csekkekkel vagy bármely más módszerrel fizethetünk Odoo-n kívül. \ N"
+"Elektronikus: automatikus fizetés a fizetés megszerzőjén keresztül az ügyfél által online vásárláskor vagy előfizetéskor elmentett kártyán történő tranzakció igénylésével (fizetési token). \ N"
+"Ellenőrizze: fizeti ki a számlát csekkel, és nyomtassa ki az Odooból. \ N"
+"Kötegelt befizetés: Egyszerre több ügyfél-ellenőrzést készíthet úgy, hogy kötegelt betétet generál, amelyet be kell nyújtania a banknak. Ha a bankszámlakivonatot kódolja az Odoo-ban, akkor javasoljuk, hogy egyeztesse a tranzakciót a kötegelt befizetéssel. A kötegelt befizetés engedélyezéséhez a modul account_batch_payment moduljának telepítve. \ n”
+"SEPA-átutalás: Fizessen be számlát egy SEPA-átutalási fájlból, amelyet beküld a bankjának. A külön átutalás engedélyezéséhez a account_sepa modult telepíteni kell.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
@@ -6853,13 +6959,17 @@ msgid ""
 "Manual:Pay bill by cash or any other method outside of Odoo.\n"
 "Check:Pay bill by check and print it from Odoo.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
-msgstr ""
+msgstr "
+"Kézi: Fizessen számlát készpénzzel vagy bármilyen más módszerrel az Odoo-n kívül. \ N"
+"Ellenőrizze: fizeti ki a számlát csekkel, és nyomtassa ki az Odooból. \ N"
+"SEPA-átutalás: Fizessen be számlát egy SEPA-átutalási fájlból, amelyet beküld a bankjának. Engedélyezze ezt a lehetőséget a beállításokból.""
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__rule_type__writeoff_button
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__rule_type__writeoff_button
 msgid "Manually create a write-off on clicked button."
-msgstr ""
+msgstr "
+A kattintással leírt gomb manuális létrehozása."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__3
@@ -6869,7 +6979,7 @@ msgstr "Március"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Margin Analysis"
-msgstr ""
+msgstr "Margó analízis"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_payment__payment_difference_handling__reconcile
@@ -6889,7 +6999,7 @@ msgstr "Tömeges email küldési kampány"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__mass_mailing_name
 msgid "Mass Mailing Name"
-msgstr ""
+msgstr "Tömeg Levelező név"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__match_label__match_regex
@@ -6899,30 +7009,30 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_note__match_regex
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_transaction_type__match_regex
 msgid "Match Regex"
-msgstr ""
+msgstr "Megegyezik Regex"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model__rule_type__invoice_matching
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__rule_type__invoice_matching
 msgid "Match existing invoices/bills."
-msgstr ""
+msgstr "Megegyezés létezik számlák"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Match with entries that are not from receivable/payable accounts"
-msgstr ""
+msgstr "Egyezzen azokkal a bejegyzésekkel, amelyek nem tartoznak a követelésekhez / tartozásokhoz"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__matched_credit_ids
 msgid "Matched Credits"
-msgstr ""
+msgstr "Megegyező kreditek"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__matched_debit_ids
 msgid "Matched Debits"
-msgstr ""
+msgstr "Megegyező hitelek"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_full_reconcile__reconciled_line_ids
@@ -6940,12 +7050,12 @@ msgstr "Párosítás"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__full_reconcile_id
 msgid "Matching #"
-msgstr ""
+msgstr "Egyeztetés #"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile__max_date
 msgid "Max Date of Matched Lines"
-msgstr ""
+msgstr "Maximum dátuma a megegyező soroknak"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__5
@@ -7003,7 +7113,7 @@ msgstr "Üzenetek"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line_template__minus_report_line_ids
 msgid "Minus Report Lines"
-msgstr ""
+msgstr "Minusz Jelentés sorok"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_moves_journal_misc
@@ -7021,7 +7131,7 @@ msgstr "Egyéb"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Miscellaneous Matching"
-msgstr ""
+msgstr "Egyéb egyeztetés"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:0
@@ -7032,7 +7142,7 @@ msgstr "Egyéb műveletek"
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_accountable_required_fields
 msgid "Missing required account on accountable invoice line."
-msgstr ""
+msgstr "Hiányzik a szükséges számla a elszámoltatható számla sorban."
 
 #. module: account
 #. openerp-web
@@ -7044,12 +7154,12 @@ msgstr "Modellek módosítása"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_cash_rounding__strategy__biggest_tax
 msgid "Modify tax amount"
-msgstr ""
+msgstr "Adó mennyiség megváltoztatása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Monitor your product margins from invoices"
-msgstr ""
+msgstr "Figyelemmel kíséri a termék margóit a számlák alapján"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__move_id
@@ -7065,12 +7175,12 @@ msgstr "Bizonylat tételsor"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__move_line_count
 msgid "Move Line Count"
-msgstr ""
+msgstr "Sor számláló mozdulat"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__move_reconciled
 msgid "Move Reconciled"
-msgstr ""
+msgstr "Mozdulat egyeztetés"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -7110,12 +7220,12 @@ msgstr "A név az ide vonatkozó dokumentumról levéve."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Navigate easily through reports and see what is behind the numbers"
-msgstr ""
+msgstr "Navigálj könnyen át a jelentések közt, és nézd meg mi rejtőzik a számok mögött"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__tax_negate
 msgid "Negate Tax Balance"
-msgstr ""
+msgstr "negatív adóegyenleg"
 
 #. module: account
 #. openerp-web
@@ -7128,7 +7238,7 @@ msgstr "Új"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__new_journal_name
 msgid "New Journal Name"
-msgstr ""
+msgstr "Új napló név"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -7165,7 +7275,7 @@ msgstr "Köv. szám"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_sequence_number_next_prefix
 msgid "Next Number Prefix"
-msgstr ""
+msgstr "Következő szám előtag"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__blocked
@@ -7181,13 +7291,14 @@ msgstr "Nincs üzenet"
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid "No attachment was provided"
-msgstr ""
+msgstr "Nem volt csatolmány megadva"
 
 #. module: account
 #: code:addons/account/models/account_reconcile_model.py:0
 #, python-format
 msgid "No move from this reconciliation model"
-msgstr ""
+msgstr "
+Nincs lépés ebből az egyeztetési modellből"
 
 #. module: account
 #: code:addons/account/models/ir_actions_report.py:0
@@ -7195,7 +7306,9 @@ msgstr ""
 msgid ""
 "No original vendor bills could be found for any of the selected vendor "
 "bills."
-msgstr ""
+msgstr "
+"A kiválasztott szállítók egyikében sem található eredeti szállítói számla."
+„Számlák”."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__no_auto_thread
@@ -7207,7 +7320,9 @@ msgstr "Válaszokhoz nincs hozzáfűzve"
 msgid ""
 "No users can edit journal entries related to a tax prior and inclusive of "
 "this date."
-msgstr ""
+msgstr "
+"A felhasználók nem szerkeszthetik az adóval összefüggő naplóbejegyzéseket."
+"ez a dátum.""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__fiscalyear_lock_date
@@ -7253,13 +7368,13 @@ msgstr "Általános adós"
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_note__not_contains
 #: model:ir.model.fields.selection,name:account.selection__account_reconcile_model_template__match_transaction_type__not_contains
 msgid "Not Contains"
-msgstr ""
+msgstr "Nem tartalmaz"
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:0
 #, python-format
 msgid "Not Due"
-msgstr ""
+msgstr "Nem, mert"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__invoice_payment_state__not_paid
@@ -7277,7 +7392,7 @@ msgstr "Nincs fizetve"
 #: model:ir.model.fields.selection,name:account.selection__res_company__account_setup_coa_state__not_done
 #: model:ir.model.fields.selection,name:account.selection__res_company__account_setup_fy_data_state__not_done
 msgid "Not done"
-msgstr ""
+msgstr "Nincs kész"
 
 #. module: account
 #. openerp-web
@@ -7295,21 +7410,23 @@ msgstr "Megjegyzés"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_note_param
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_note_param
 msgid "Note Parameter"
-msgstr ""
+msgstr "Megjegyzés paraméter"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_out_refund_type
 msgid ""
 "Note that the easiest way to create a credit note is to do it directly\n"
 "                from the customer invoice."
-msgstr ""
+msgstr ""Vegye figyelembe, hogy a jóváírási leírás legegyszerűbb módja az, ha közvetlenül csinálja. \ N"
+"az ügyfél számlájáról.""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_refund_type
 msgid ""
 "Note that the easiest way to create a vendor credit note it to do it "
 "directly from the vendor bill."
-msgstr ""
+msgstr ""Vegye figyelembe, hogy a legegyszerűbb módszer eladó hitelkártya létrehozására."
+"közvetlenül az eladó számlájáról.""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__note
@@ -7324,7 +7441,7 @@ msgstr "Megjegyzések"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Nothing to do!"
-msgstr ""
+msgstr "Semmit nem kell csinálni!"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__notify
@@ -7344,7 +7461,7 @@ msgstr "November"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__num_journals_without_account
 msgid "Num Journals Without Account"
-msgstr ""
+msgstr "Szám folyóiratok számla nélkül"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_full_reconcile__name
@@ -7370,7 +7487,7 @@ msgstr "Napok száma"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__number_entries
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__number_entries
 msgid "Number of entries related to this model"
-msgstr ""
+msgstr "Ehhez a modellhez kapcsolódó bejegyzések száma"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__message_has_error_counter
@@ -7378,7 +7495,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_move__message_has_error_counter
 #: model:ir.model.fields,field_description:account.field_account_payment__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Hibák száma"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement__message_needaction_counter
@@ -7407,7 +7524,7 @@ msgstr "Olvasatlan üzenetek száma"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "OFX Import"
-msgstr ""
+msgstr "OFX bejövetel"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__fiscalyear_last_month__10
@@ -7440,65 +7557,68 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
 msgid "Odoo helps you easily track all activities related to a customer."
-msgstr ""
+msgstr "Az Odoo segítségével könnyen nyomon követheti az ügyféllel kapcsolatos összes tevékenységet."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
 msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr ""
+msgstr "Az Odoo segítségével könnyedén nyomon követheti a szállítóval kapcsolatos összes tevékenységet."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__off_balance
 msgid "Off Balance"
-msgstr ""
+msgstr "Egyenlegen kívül"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_off_sheet
 msgid "Off-Balance Sheet"
-msgstr ""
+msgstr "Egyenlegen kívüli lap"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_line_form
 msgid "On the"
-msgstr ""
+msgstr "-on"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid ""
 "Once installed, set 'Bank Feeds' to 'File Import' in bank account "
 "settings.This adds a button to import from the Accounting dashboard."
-msgstr ""
+msgstr "
+"A telepítés után állítsa a" Bank hírcsatornák "beállítást" Fájl importálása "értékre a bankszámlán"
+"Beállítások. Ez hozzáad egy gombot a Számviteli irányítópulton történő importáláshoz.""
 
 #. module: account
 #: code:addons/account/models/account_payment.py:0
 #, python-format
 msgid "Only a draft payment can be posted."
-msgstr ""
+msgstr "Csak is a piszkozati fizetést lehet posztolni"
 
 #. module: account
 #: code:addons/account/models/chart_template.py:0
 #, python-format
 msgid "Only administrators can load a chart of accounts"
-msgstr ""
+msgstr "Csak rendszergazdák tudják betölteni a fiókok diagrammjait"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Only invoices could be printed."
-msgstr ""
+msgstr "Csak számlákat lehet nyomtatni"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_register__group_payment
 msgid "Only one payment will be created by partner (bank)/ currency."
-msgstr ""
+msgstr "Csak egy fizetést hoz létre partner (bank) / pénznem."
 
 #. module: account
 #: code:addons/account/wizard/account_move_reversal.py:0
 #, python-format
 msgid ""
 "Only posted journal entries being not already a refund can be reversed."
-msgstr ""
+msgstr "
+Csak azok a közzétett naplóbejegyzések fordíthatók vissza, amelyek még nem térítik vissza a visszatérítést."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_company__period_lock_date
@@ -7521,7 +7641,7 @@ msgstr "Megnyitás"
 #: code:addons/account/models/account_reconcile_model.py:0
 #, python-format
 msgid "Open Balance"
-msgstr ""
+msgstr "nyitott egyenleg"
 
 #. module: account
 #. openerp-web
@@ -7534,7 +7654,7 @@ msgstr "Nyitott egyenleg"
 #. module: account
 #: model:ir.model,name:account.model_account_financial_year_op
 msgid "Opening Balance of Financial Year"
-msgstr ""
+msgstr "A finanszírozási év nyitó egyenlege"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op__opening_date
@@ -7545,19 +7665,19 @@ msgstr "Nyitó dátum"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__account_opening_journal_id
 msgid "Opening Journal"
-msgstr ""
+msgstr "Nyitó napló"
 
 #. module: account
 #: code:addons/account/models/company.py:0
 #: model:ir.model.fields,field_description:account.field_res_company__account_opening_move_id
 #, python-format
 msgid "Opening Journal Entry"
-msgstr ""
+msgstr "Nyitó napló tétel"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_financial_year_op__opening_move_posted
 msgid "Opening Move Posted"
-msgstr ""
+msgstr "Nyitó mozdulat posztolva"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cashbox_line__number
@@ -7568,27 +7688,27 @@ msgstr "Nyitó egységnyi darabszám"
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid "Opening balance"
-msgstr ""
+msgstr "nyitó egyenleg"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__opening_credit
 msgid "Opening credit"
-msgstr ""
+msgstr "Nyitó hitel"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__opening_credit
 msgid "Opening credit value for this account."
-msgstr ""
+msgstr "A számla nyitó hitelértéke."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__opening_debit
 msgid "Opening debit"
-msgstr ""
+msgstr "Nyitó hitel"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account__opening_debit
 msgid "Opening debit value for this account."
-msgstr ""
+msgstr "Nyitó hitele ennek a fióknak"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
@@ -7603,13 +7723,17 @@ msgid ""
 "(%s), you cannot reconcile it entirely with existing journal entries "
 "otherwise it would make a gap in the numbering. You should book an entry and"
 " make a regular revert of it in case you want to cancel it."
-msgstr ""
+msgstr "
+"A művelet nem engedélyezett. Mivel a nyilatkozat sora már kapott számot"
+"(% s), ezt nem lehet teljesen összeegyeztetni a meglévő naplóbejegyzésekkel"
+"különben hiányozna a számozás. Foglaljon bejegyzést és"
+"rendszeresen térjen vissza arra az esetre, ha törli.""
 
 #. module: account
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid "Operation not supported"
-msgstr ""
+msgstr "Művelet nem támogatott"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -7631,7 +7755,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax_report_line__code
 msgid "Optional unique code to refer to this line in total formulas"
-msgstr ""
+msgstr "Opcionális egyedi kód, amely a képletekben erre a sorra utal"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line__option
@@ -7647,7 +7771,7 @@ msgstr "Forrás"
 #. module: account
 #: model:ir.actions.report,name:account.action_account_original_vendor_bill
 msgid "Original Bills"
-msgstr ""
+msgstr "Eredeti számlák"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__payment_id
@@ -7658,17 +7782,17 @@ msgstr "Kifizetés létrehozója"
 #: model:ir.model.fields,field_description:account.field_account_move_line__tax_line_id
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Originator Tax"
-msgstr ""
+msgstr "Eredetiségi adó"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__tax_repartition_line_id
 msgid "Originator Tax Repartition Line"
-msgstr ""
+msgstr "Kezdeti adóbesorolási vonal"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__tax_group_id
 msgid "Originator tax group"
-msgstr ""
+msgstr "Eredetiségi adó csoport"
 
 #. module: account
 #. openerp-web
@@ -7770,7 +7894,7 @@ msgstr "Fölérendelt számlatükör sablon"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_report_line__parent_id
 msgid "Parent Line"
-msgstr ""
+msgstr "Szülő vonal"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__parent_id
@@ -7791,7 +7915,7 @@ msgstr "Részleges egyeztetés"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move_reversal__refund_method__refund
 msgid "Partial Refund"
-msgstr ""
+msgstr "Részleges visszatérítés"
 
 #. module: account
 #. openerp-web
@@ -7819,24 +7943,24 @@ msgstr "Partner vállalat"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__country_id
 msgid "Partner Company's Country"
-msgstr ""
+msgstr "Partner cég országa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__contract_ids
 #: model:ir.model.fields,field_description:account.field_res_users__contract_ids
 msgid "Partner Contracts"
-msgstr ""
+msgstr "Parnter kontraktusok"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_partner
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_partner
 msgid "Partner Is Set"
-msgstr ""
+msgstr "Parten megvan"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 msgid "Partner Is Set & Matches"
-msgstr ""
+msgstr "Partner megvan & megegyezik"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_moves_ledger_partner
@@ -7852,19 +7976,19 @@ msgstr "Partner neve"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__partner_type
 msgid "Partner Type"
-msgstr ""
+msgstr "Partner típus"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Pay your"
-msgstr ""
+msgstr "Fizesd a te"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Pay your bills in one-click using Euro SEPA Service"
-msgstr ""
+msgstr "Fizetje ki számláit egy kattintással az Euro SEPA szolgáltatással"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_payable
@@ -7915,26 +8039,26 @@ msgstr "Fizetési különbözet"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__payment_difference_handling
 msgid "Payment Difference Handling"
-msgstr ""
+msgstr "Fizetési eltérés kezelése"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_payment.xml:0
 #, python-format
 msgid "Payment Info"
-msgstr ""
+msgstr "Fizetési infó"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_payment.xml:0
 #, python-format
 msgid "Payment Journal:"
-msgstr ""
+msgstr "Fizetési napló"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 msgid "Payment Matching"
-msgstr ""
+msgstr "Fizetési egyeztetés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__payment_method_id
@@ -7950,7 +8074,7 @@ msgstr "Fizetési módszer típus"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Payment Method Types"
-msgstr ""
+msgstr "Fizetési módszer típusok"
 
 #. module: account
 #: model:ir.model,name:account.model_account_payment_method
@@ -7960,12 +8084,12 @@ msgstr "Fizetési módok"
 #. module: account
 #: model:ir.actions.report,name:account.action_report_payment_receipt
 msgid "Payment Receipt"
-msgstr ""
+msgstr "Fizetési jelentés"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_payment_receipt_document
 msgid "Payment Receipt:"
-msgstr ""
+msgstr "Fizetési jelentés"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_payment_ref
@@ -7976,12 +8100,12 @@ msgstr "Fizetési hivatkozás"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Payment References"
-msgstr ""
+msgstr "Fizetési referenciák"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__invoice_payment_state
 msgid "Payment Status"
-msgstr ""
+msgstr "Fizetési állag"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_payment_term_form
@@ -8003,7 +8127,7 @@ msgstr "Fizetési feltételek"
 #. module: account
 #: model:ir.model,name:account.model_account_payment_term_line
 msgid "Payment Terms Line"
-msgstr ""
+msgstr "Fizetési feltételek sora"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__payment_type
@@ -8014,7 +8138,7 @@ msgstr "Fizetés típusa:"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__post_at__pay_val
 msgid "Payment Validation"
-msgstr ""
+msgstr "Fizetés igazoltatása"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
@@ -8024,47 +8148,47 @@ msgstr "Fizetési feltétel magyarázata a vásárló felé..."
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_15days
 msgid "Payment terms: 15 Days"
-msgstr ""
+msgstr "Fizetés feltétele: 15 nap"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_2months
 msgid "Payment terms: 2 Months"
-msgstr ""
+msgstr "Fizetés feltétele: 2 hónap"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_21days
 msgid "Payment terms: 21 Days"
-msgstr ""
+msgstr "Fizetés feltétele: 21 nap"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_30days
 msgid "Payment terms: 30 Days"
-msgstr ""
+msgstr "Fizetés feltétele: 30 nap"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_advance
 msgid "Payment terms: 30% Advance End of Following Month"
-msgstr ""
+msgstr "Fizetési feltételek: 30% előre a következő hónap végéig"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_advance_60days
 msgid "Payment terms: 30% Now, Balance 60 Days"
-msgstr ""
+msgstr "Fizetési feltételek: 30% Most, egyenleg 60 nap"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_45days
 msgid "Payment terms: 45 Days"
-msgstr ""
+msgstr "Fizetési feltételek: 45 nap"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_end_following_month
 msgid "Payment terms: End of Following Month"
-msgstr ""
+msgstr "Fizetési feltételek: A következő hónap végén"
 
 #. module: account
 #: model:account.payment.term,note:account.account_payment_term_immediate
 msgid "Payment terms: Immediate Payment"
-msgstr ""
+msgstr "Fizetési feltételek: Azonnali fizetés"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__payment_id
@@ -8097,13 +8221,15 @@ msgstr "Fizetések könyvelői párosítása"
 msgid ""
 "Payments are used to register liquidity movements. You can process those "
 "payments by your own means or by using installed facilities."
-msgstr ""
+msgstr "
+"A fizetéseket a likviditási mozgások regisztrálására használják. Ezek feldolgozhatók."
+"fizetések saját eszközeivel vagy telepített eszközök használatával.""
 
 #. module: account
 #: code:addons/account/models/account_payment.py:0
 #, python-format
 msgid "Payments without a customer can't be matched"
-msgstr ""
+msgstr "Fizetések ügyfél nélkül, nem lehetnek egyeztetve"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_payment_term_line__value__percent
@@ -8113,7 +8239,7 @@ msgstr "Százalék"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_accrual_accounting_wizard_form_view
 msgid "Percent (%)"
-msgstr ""
+msgstr "Percent (%)"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_accrual_accounting_wizard__percentage
@@ -8124,7 +8250,7 @@ msgstr "Százalék"
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #, python-format
 msgid "Percentage must be between 0 and 100"
-msgstr ""
+msgstr "A százaláknak muszáj 0 és 100 közt lennie"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_tax__amount_type__percent
@@ -8154,7 +8280,7 @@ msgstr "Egyenleg százaléka"
 #: code:addons/account/models/account_payment_term.py:0
 #, python-format
 msgid "Percentages on the Payment Terms lines must be between 0 and 100."
-msgstr ""
+msgstr "A fizetési feltételek sorában a százalékos arány 0 és 100 közötti lehet."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
@@ -8184,25 +8310,26 @@ msgstr ""
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Please define a sequence on your journal."
-msgstr ""
+msgstr "Kérjük említsen meg egy szekvens az ön naplóján"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Please define an accounting miscellaneous journal in your company"
-msgstr ""
+msgstr "Kérjük, határozza meg a számviteli naplót a vállalatában"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Please define an accounting purchase journal in your company"
-msgstr ""
+msgstr "
+Kérjük, határozza meg a könyvelési beszerzési naplót a vállalatában"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Please define an accounting sale journal in your company"
-msgstr ""
+msgstr "Kérjük, határozza meg a könyvelési értékesítési naplót a vállalatában"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -8210,7 +8337,9 @@ msgstr ""
 msgid ""
 "Please go on the %s journal and define a %s Account. This account will be "
 "used to record cash difference."
-msgstr ""
+msgstr "
+"Kérjük, lépjen a% s naplóba, és határozza meg a% s fiókot. Ez a fiók lesz"
+"készpénzkülönbség elszámolására használták.""
 
 #. module: account
 #: code:addons/account/models/company.py:0
@@ -8218,22 +8347,25 @@ msgstr ""
 msgid ""
 "Please install a chart of accounts or create a miscellaneous journal before "
 "proceeding."
-msgstr ""
+msgstr "
+"Kérjük, telepítse a fiókok listáját, vagy hozzon létre különféle folyóiratot"
+„Halad.”
+"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "Please use the following communication for your payment :"
-msgstr ""
+msgstr "Kérjük, használja a következő kommunikációt a fizetéshez:"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line_template__plus_report_line_ids
 msgid "Plus Tax Report Lines"
-msgstr ""
+msgstr "Plusz adó jelentés sorok"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__default_pos_receivable_account_id
 msgid "PoS receivable account"
-msgstr ""
+msgstr "PoS megkapható fiók"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__access_url
@@ -8254,12 +8386,12 @@ msgstr "Minden bejegyzést könyvelésre küld"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__post_at
 msgid "Post At"
-msgstr ""
+msgstr "Posztold ki -kor"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__auto_post
 msgid "Post Automatically"
-msgstr ""
+msgstr "Posztold ki egyből"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
@@ -8274,12 +8406,12 @@ msgstr "Napló tételek könyvelése"
 #. module: account
 #: model:ir.actions.server,name:account.action_account_confirm_payments
 msgid "Post Payments"
-msgstr ""
+msgstr "Posztolási fizetések"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_validate_account_move
 msgid "Post entries"
-msgstr ""
+msgstr "Posztolási tételek"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move__state__posted
@@ -8304,12 +8436,12 @@ msgstr "Könyvelésre feladott napló tételek"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Posted journal entry must have an unique sequence number per company."
-msgstr ""
+msgstr " A könyvelési napló, muszáj hogy rendelkezzék egy egyedi számmal, cégenként."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Posting"
-msgstr ""
+msgstr "Posztolás"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_chart_template__bank_account_code_prefix
@@ -8358,7 +8490,7 @@ msgstr "Előnézet"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_send_wizard_form
 msgid "Preview as a PDF"
-msgstr ""
+msgstr "Előrelátói PDF"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -8387,12 +8519,12 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__invoice_is_print
 msgid "Print by default"
-msgstr ""
+msgstr "Nyomtatás alap beálításokon"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Print checks to pay your vendors"
-msgstr ""
+msgstr "Nyomtass csekkeket, hogy kifizesd az eladókat"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_line__product_id
@@ -8440,7 +8572,7 @@ msgstr "Nyereség"
 #: code:addons/account/static/src/js/account_selection.js:0
 #, python-format
 msgid "Profit & Loss"
-msgstr ""
+msgstr "Profitálás & veszteség"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__profit_account_id
@@ -8453,7 +8585,9 @@ msgstr "Nyereség számla"
 msgid ""
 "Programmation Error: Can't call _get_invoice_matching_query() for different "
 "rules than 'invoice_matching'"
-msgstr ""
+msgstr "
+"Programozási hiba: Nem lehet meghívni a _get_invoice_matching_query () fájlt a különböző"
+"szabályok, mint a" számla_magasztás ""
 
 #. module: account
 #: code:addons/account/models/account_reconcile_model.py:0
@@ -8461,7 +8595,9 @@ msgstr ""
 msgid ""
 "Programmation Error: Can't call _get_wo_suggestion_query() for different "
 "rules than 'writeoff_suggestion'"
-msgstr ""
+msgstr "
+"Programozási hiba: Nem lehet meghívni a _get_wo_suggestion_query () fájlt a különböző"
+"szabályok, mint a" writeoff_suggestion """
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_chart_template_form
@@ -8484,7 +8620,7 @@ msgstr "Beszerzés bevételi bizonylata"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Purchase Receipt Created"
-msgstr ""
+msgstr "Vásárlási jelentés elkészítve"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -8510,12 +8646,17 @@ msgid ""
 " Tax report line codes can be used as variables in this expression to refer "
 "to the balance of the corresponding lines in the report. A formula cannot "
 "refer to another line using a formula."
-msgstr ""
+msgstr "
+"A teljes sor értékének kiszámításához használt Python kifejezés. Ez a mező"
+"kölcsönösen kizárva a tag_name-t, beállítva, hogy a sort teljes sorra fordítsa."
+"Az adóbevallás sorkódjai felhasználhatók változóként ebben a kifejezésben hivatkozni"
+"a jelentés megfelelő sorainak egyenlegére. A képlet nem képes"
+"hivatkozzon egy másik sorra egy képlet segítségével.""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "QIF Import"
-msgstr ""
+msgstr "QIF bejövetel"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__quantity
@@ -8587,12 +8728,12 @@ msgstr "Címzettek"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_accrual_accounting_wizard_form_view
 msgid "Recognize on"
-msgstr ""
+msgstr "Felismer -a"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__recompute_tax_line
 msgid "Recompute Tax Line"
-msgstr ""
+msgstr "Tax sor újraszámítása"
 
 #. module: account
 #. openerp-web
@@ -8608,7 +8749,7 @@ msgstr "Egyeztetés"
 #. module: account
 #: model:ir.model,name:account.model_account_reconcile_model_template
 msgid "Reconcile Model Template"
-msgstr ""
+msgstr "Összeegyeztesse a modellsablont"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__reconciled
@@ -8625,12 +8766,12 @@ msgstr "Párosított tételek"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__reconciled_invoice_ids
 msgid "Reconciled Invoices"
-msgstr ""
+msgstr "Számlák öszeegyeztetése"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__reconciled_invoices_count
 msgid "Reconciled Invoices Count"
-msgstr ""
+msgstr "Számlák öszeegyeztetésének megszámlálása"
 
 #. module: account
 #: model:ir.actions.client,name:account.action_manual_reconciliation
@@ -8641,7 +8782,7 @@ msgstr "Könyvelés, egyeztetés"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_line__reconcile_model_id
 msgid "Reconciliation Model"
-msgstr ""
+msgstr "Öszeegyeztetési model"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_reconcile_model
@@ -8663,13 +8804,13 @@ msgstr "A banki kivonatok egyeztetése"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Record transactions in foreign currencies"
-msgstr ""
+msgstr "Tranzakciók rögzítése külföldi pénznemben "
 
 #. module: account
 #: code:addons/account/models/account.py:0
 #, python-format
 msgid "Recursion found for tax '%s'."
-msgstr ""
+msgstr "A (z) '% s' adó rekurziója található."
 
 #. module: account
 #. openerp-web
@@ -8713,7 +8854,7 @@ msgstr "Visszatérítés"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Refund Created"
-msgstr ""
+msgstr "Visszatérítés elkészítve"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
@@ -8724,7 +8865,7 @@ msgstr "Visszatérítés dátuma"
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line__refund_tax_id
 #: model:ir.model.fields,field_description:account.field_account_tax_repartition_line_template__refund_tax_id
 msgid "Refund Tax"
-msgstr ""
+msgstr "Visszatérítési adó"
 
 #. module: account
 #: code:addons/account/models/account_payment.py:0
@@ -8740,19 +8881,19 @@ msgstr "Kiegyenlítés rögzítése"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid "Register a bank statement"
-msgstr ""
+msgstr "Regisztráljon egy bank állítást"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_receipt_type
 msgid "Register a new purchase receipt"
-msgstr ""
+msgstr "Regisztráljon egy új vásárlási jelentést"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_payments
 #: model_terms:ir.actions.act_window,help:account.action_account_payments_payable
 #: model_terms:ir.actions.act_window,help:account.action_account_payments_transfer
 msgid "Register a payment"
-msgstr ""
+msgstr "Regisztráljon egy fizetést"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__type__other
@@ -8772,32 +8913,32 @@ msgstr "Vonatkozó dokumentum modell"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_tax_form
 msgid "Repartition for Credit Notes"
-msgstr ""
+msgstr "Hiteljegyek megoszlása"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__invoice_repartition_line_ids
 #: model:ir.model.fields,field_description:account.field_account_tax_template__invoice_repartition_line_ids
 #: model_terms:ir.ui.view,arch_db:account.view_tax_form
 msgid "Repartition for Invoices"
-msgstr ""
+msgstr "A számlák megoszlása"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__refund_repartition_line_ids
 #: model:ir.model.fields,field_description:account.field_account_tax_template__refund_repartition_line_ids
 msgid "Repartition for Refund Invoices"
-msgstr ""
+msgstr "A visszatérítési számlák megoszlása"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__refund_repartition_line_ids
 #: model:ir.model.fields,help:account.field_account_tax_template__refund_repartition_line_ids
 msgid "Repartition when the tax is used on a refund"
-msgstr ""
+msgstr "Osztályozás az adó visszatérítéskor történő felhasználásakor"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_tax__invoice_repartition_line_ids
 #: model:ir.model.fields,help:account.field_account_tax_template__invoice_repartition_line_ids
 msgid "Repartition when the tax is used on an invoice"
-msgstr ""
+msgstr "Osztályozás, amikor az adót számlán használják"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position_tax_template__tax_dest_id
@@ -8822,7 +8963,7 @@ msgstr "Válaszcím"
 #: model:ir.model,name:account.model_ir_actions_report
 #: model:ir.model.fields,field_description:account.field_account_tax_report_line__report_action_id
 msgid "Report Action"
-msgstr ""
+msgstr "Akc jelentése"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard__tax_report_line_id
@@ -8843,22 +8984,22 @@ msgstr "Kimutatás készítés"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cash_rounding__rounding
 msgid "Represent the non-zero value smallest coinage (for example, 0.05)."
-msgstr ""
+msgstr "A legkisebb érmék érmékének a nullán kívüli értékét reprezentálni (például 0,05)"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__require_partner_bank_account
 msgid "Require Partner Bank Account"
-msgstr ""
+msgstr "Szükségeltessen Parnter Bank Fiókot"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__res_partner_bank_id
 msgid "Res Partner Bank"
-msgstr ""
+msgstr "Res Partner Bank"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 msgid "Reset To Draft"
-msgstr ""
+msgstr "Indítsa újra, hogy piszkozatot tudjon csinálni"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -8891,7 +9032,7 @@ msgstr "A pénznemben visszamaradt összeg"
 #: code:addons/account/models/account_journal_dashboard.py:0
 #, python-format
 msgid "Residual amount"
-msgstr ""
+msgstr "Maradék összeg"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__user_id
@@ -8909,20 +9050,20 @@ msgstr "Felelős felhasználó"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_partner_category_ids
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_partner_category_ids
 msgid "Restrict Partner Categories to"
-msgstr ""
+msgstr "A partnerkategóriák korlátozása"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_partner_ids
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__match_partner_ids
 msgid "Restrict Partners to"
-msgstr ""
+msgstr "Partnerek korlátozása, hogy...."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_reconcile_model__match_same_currency
 #: model:ir.model.fields,help:account.field_account_reconcile_model_template__match_same_currency
 msgid ""
 "Restrict to propositions having the same currency as the statement line."
-msgstr ""
+msgstr "Azokra az állításokra korlátozódjon, amelyeknek a valuta megegyezik a nyilatkozat sorával."
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_digest_digest__kpi_account_total_revenue
@@ -8934,12 +9075,12 @@ msgstr "Bevétel"
 #: model:ir.model.fields,field_description:account.field_account_accrual_accounting_wizard__revenue_accrual_account
 #: model:ir.model.fields,field_description:account.field_res_company__revenue_accrual_account_id
 msgid "Revenue Accrual Account"
-msgstr ""
+msgstr "Bevétel-eredményszemléletű számla"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__account_id
 msgid "Revenue/Expense Account"
-msgstr ""
+msgstr "Bevételi / kiadási számla"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_reversal__date
@@ -8951,20 +9092,20 @@ msgstr "Visszafordított dátum"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Reversal of %s"
-msgstr ""
+msgstr "Visszafordítása a %s-nak"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #: code:addons/account/wizard/account_move_reversal.py:0
 #, python-format
 msgid "Reversal of: %s"
-msgstr ""
+msgstr "Visszafordítottja a %s-nak"
 
 #. module: account
 #: code:addons/account/wizard/account_move_reversal.py:0
 #, python-format
 msgid "Reversal of: %s, %s"
-msgstr ""
+msgstr "Visszafordítottá tétele a: %s, %s-nek"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_view_account_move_reversal
@@ -8981,7 +9122,7 @@ msgstr "Visszafordított személy"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
 msgid "Reverse Journal Entry"
-msgstr ""
+msgstr "Visszafordított napló tétel"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -8993,7 +9134,7 @@ msgstr "Visszafordított mozgások bizonylatai"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__reversed_entry_id
 msgid "Reverse entry"
-msgstr ""
+msgstr "Visszafordított tétel"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_bank_statement_form
@@ -9009,7 +9150,7 @@ msgstr "Átnézés"
 #: model:ir.model.fields,field_description:account.field_account_account__root_id
 #: model:ir.model.fields,field_description:account.field_account_account_template__root_id
 msgid "Root"
-msgstr ""
+msgstr "Gyökér"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__tax_calculation_rounding_method__round_globally
@@ -9024,7 +9165,7 @@ msgstr "Tételenkénti kerekítés"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.rounding_form_view
 msgid "Rounding Form"
-msgstr ""
+msgstr "Kerekítési forma"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_cash_rounding__rounding_method
@@ -9039,27 +9180,27 @@ msgstr "Kerekítési pontosság"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_cash_rounding__strategy
 msgid "Rounding Strategy"
-msgstr ""
+msgstr "Kerekítési stratégia"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.rounding_tree_view
 msgid "Rounding Tree"
-msgstr ""
+msgstr "Kerekítési fa"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_sepa
 msgid "SEPA Credit Transfer (SCT)"
-msgstr ""
+msgstr "SEPA Hitel Átvitel (SCT)"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "SEPA Direct Debit (SDD)"
-msgstr ""
+msgstr "SEPA közvetlen hitel (SDD)"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "SEPA QR Code"
-msgstr ""
+msgstr "SEPA QR kód"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__message_has_sms_error
@@ -9067,7 +9208,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account.field_account_move__message_has_sms_error
 #: model:ir.model.fields,field_description:account.field_account_payment__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "SMS szállítási hiba"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_search
@@ -9090,7 +9231,7 @@ msgstr "Értékesítések"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_invoice_tree
 msgid "Sales Person"
-msgstr ""
+msgstr "Eladó"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move__type__out_receipt
@@ -9101,18 +9242,18 @@ msgstr "Értékesítési bevételi bizonylat"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Sales Receipt Created"
-msgstr ""
+msgstr "Eladási jelentés elkészítve"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_onboarding_sale_tax_form
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Sales Tax"
-msgstr ""
+msgstr "Eladási adó"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_open_account_onboarding_sale_tax
 msgid "Sales tax"
-msgstr ""
+msgstr "Eladási adó"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__invoice_user_id
