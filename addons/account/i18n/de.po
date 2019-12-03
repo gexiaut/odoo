@@ -712,7 +712,7 @@ msgstr "<strong>Fällig am:</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "<strong>Ending Balance</strong>"
-msgstr ""
+msgstr "<strong>Endbilanz</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_journal
