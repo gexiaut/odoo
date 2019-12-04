@@ -1,26 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_analytic_default
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2019
 # Michal Veselý <michal@veselyberanek.net>, 2019
 # trendspotter <j.podhorecky@volny.cz>, 2019
-# 
+# Manuel <gexi@live.de>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 11:31+0000\n"
-"PO-Revision-Date: 2019-08-26 09:07+0000\n"
+"PO-Revision-Date: 2019-12-04 15:23+0100\n"
 "Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: account_analytic_default
 #: model_terms:ir.ui.view,arch_db:account_analytic_default.view_account_analytic_default_kanban
@@ -55,8 +57,8 @@ msgid ""
 "An analytic default requires at least an analytic account or an analytic "
 "tag."
 msgstr ""
-"Analytická výchozí hodnota vyžaduje alespoň analytický účet nebo analytickou"
-" značku."
+"Analytická výchozí hodnota vyžaduje alespoň analytický účet nebo "
+"analytickou značku."
 
 #. module: account_analytic_default
 #: model:ir.model.fields,field_description:account_analytic_default.field_account_analytic_default__analytic_id
@@ -67,7 +69,7 @@ msgstr "Analytický účet"
 #. module: account_analytic_default
 #: model_terms:ir.ui.view,arch_db:account_analytic_default.view_account_analytic_default_form
 msgid "Analytic Default Rule"
-msgstr ""
+msgstr "Původní analytické pravidlo"
 
 #. module: account_analytic_default
 #: model:ir.actions.act_window,name:account_analytic_default.action_analytic_default_list
@@ -206,10 +208,10 @@ msgid ""
 "default (e.g. create new customer invoice or Sales order if we select this "
 "partner, it will automatically take this as an analytic account)"
 msgstr ""
-"Vybrat partnera, který použije analytický účet uvedený ve výchozím nastavení"
-" pro analýzu (např. Vytvoření nové zákaznické faktury nebo objednávky "
-"odběru. Pokud tohoto partnera vybereme, automaticky jej použije jako "
-"analytický účet)"
+"Vybrat partnera, který použije analytický účet uvedený ve výchozím "
+"nastavení pro analýzu (např. Vytvoření nové zákaznické faktury nebo "
+"objednávky odběru. Pokud tohoto partnera vybereme, automaticky jej použije "
+"jako analytický účet)"
 
 #. module: account_analytic_default
 #: model:ir.model.fields,help:account_analytic_default.field_account_analytic_default__product_id
@@ -228,8 +230,8 @@ msgstr ""
 msgid ""
 "Select a user which will use analytic account specified in analytic default."
 msgstr ""
-"Vybrat uživatele, který použije analytický účet specifikovaný v analytických"
-" výchozích nastaveních."
+"Vybrat uživatele, který použije analytický účet specifikovaný v "
+"analytických výchozích nastaveních."
 
 #. module: account_analytic_default
 #: model:ir.model.fields,help:account_analytic_default.field_account_analytic_default__account_id
@@ -238,6 +240,10 @@ msgid ""
 "analytic default (e.g. create new customer invoice or Sales order if we "
 "select this account, it will automatically take this as an analytic account)"
 msgstr ""
+"Vybrat účetní účet, který bude používat analytický účet specifický v "
+"původní analytice (například vytrořit nové zákaznické faktury nbeo "
+"objednávky, pokud zvolíme tento účet, automaticky to vezme jako analytický "
+"účet)"
 
 #. module: account_analytic_default
 #: model:ir.model.fields,field_description:account_analytic_default.field_account_analytic_default__sequence
