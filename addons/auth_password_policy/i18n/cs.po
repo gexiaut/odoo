@@ -1,23 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* auth_password_policy
-# 
+#
 # Translators:
 # trendspotter <j.podhorecky@volny.cz>, 2019
-# 
+# Manuel <gexi@live.de>, 2019
+
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 11:32+0000\n"
-"PO-Revision-Date: 2019-08-26 09:09+0000\n"
+"PO-Revision-Date: 2019-12-04 11:43+0100\n"
 "Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_config_settings
@@ -31,15 +33,14 @@ msgstr "Minimální délka hesla"
 
 #. module: auth_password_policy
 #: model:ir.model.fields,help:auth_password_policy.field_res_config_settings__minlength
-msgid ""
-"Minimum number of characters passwords must contain, set to 0 to disable."
-msgstr ""
+msgid "Minimum number of characters passwords must contain, set to 0 to disable."
+msgstr "Minimální  počet znaků, které heslo může obsahovat, nastavte na 0 pro deaktivování"
 
 #. module: auth_password_policy
 #: code:addons/auth_password_policy/models/res_users.py:30
 #, python-format
 msgid "Passwords must have at least %d characters, got %d."
-msgstr ""
+msgstr "Hesla musí mít minimálně %d znaků, mají %d."
 
 #. module: auth_password_policy
 #. openerp-web
@@ -50,6 +51,9 @@ msgid ""
 "\n"
 "Hint: increase length, use multiple words and use non-letter characters to increase your password's strength."
 msgstr ""
+"Požadováno:  %s.\n"
+"\n"
+"Nápověda: prodlužte,použijte více slov a nepoužívejte písmenka aby síla hesla byla vyšší"
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_users
@@ -61,25 +65,25 @@ msgstr "Uživatelé"
 #: code:addons/auth_password_policy/static/src/js/password_gauge.js:28
 #, python-format
 msgid "at least %d character classes"
-msgstr ""
+msgstr "alespoň %d tříd znaků"
 
 #. module: auth_password_policy
 #. openerp-web
 #: code:addons/auth_password_policy/static/src/js/password_gauge.js:22
 #, python-format
 msgid "at least %d characters"
-msgstr ""
+msgstr "alespoň %d znaků"
 
 #. module: auth_password_policy
 #. openerp-web
 #: code:addons/auth_password_policy/static/src/js/password_gauge.js:25
 #, python-format
 msgid "at least %d words"
-msgstr ""
+msgstr "alespoň %d slov"
 
 #. module: auth_password_policy
 #. openerp-web
 #: code:addons/auth_password_policy/static/src/js/password_gauge.js:125
 #, python-format
 msgid "no requirements"
-msgstr ""
+msgstr "žádné požadavky"
