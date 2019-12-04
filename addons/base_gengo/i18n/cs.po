@@ -1,25 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_gengo
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2019
 # trendspotter <j.podhorecky@volny.cz>, 2019
-# 
+# Manuel <gexi@live.de>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-22 08:19+0000\n"
-"PO-Revision-Date: 2019-08-26 09:09+0000\n"
+"PO-Revision-Date: 2019-12-04 12:40+0100\n"
 "Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.base_gengo_translation_wizard_from
@@ -27,6 +29,8 @@ msgid ""
 "<span class=\"o_form_label\">Gengo Public or Private keys are wrong or "
 "missing.</span>"
 msgstr ""
+"<span class=\"o_form_label\">Gengo veřejné nebo soukromé klíče jsou špatně "
+"nebo chybějící.</span>"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.view_ir_translation_inherit_base_gengo_form
@@ -36,24 +40,24 @@ msgid ""
 "in this system. You are supposed to do that directly by using your Gengo "
 "Account</span>"
 msgstr ""
-"<span class=\"o_form_label\">Poznámka: Pokud je stav překladu 'In Progress',"
-" znamená to, že překlad musí být schválen k nahrání do tohoto systému. Měli "
-"byste tak učinit přímo pomocí svého účtu Gengo</span>"
+"<span class=\"o_form_label\">Poznámka: Pokud je stav překladu 'In "
+"Progress', znamená to, že překlad musí být schválen k nahrání do tohoto "
+"systému. Měli byste tak učinit přímo pomocí svého účtu Gengo</span>"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form
 msgid "Add Gengo login Private Key..."
-msgstr ""
+msgstr "Přidat soukromý přihlašovací Gengo klíč"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form
 msgid "Add Gengo login Public Key..."
-msgstr ""
+msgstr "Přidat veřejný přihlašovací Gengo klíč"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form
 msgid "Add your comments here for translator...."
-msgstr ""
+msgstr "Zde přidejte své připomínky pro překladač"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form
@@ -64,7 +68,7 @@ msgstr "Automatické schválení překladu"
 #: model:ir.model.fields,field_description:base_gengo.field_res_company__gengo_auto_approve
 #: model:ir.model.fields,field_description:base_gengo.field_res_config_settings__gengo_auto_approve
 msgid "Auto Approve Translation ?"
-msgstr ""
+msgstr "Automatické schválení překladu ?"
 
 #. module: base_gengo
 #: model:ir.model,name:base_gengo.model_base_gengo_translations
@@ -88,11 +92,13 @@ msgid ""
 "Check this box if you're using the sandbox mode of Gengo, mainly used for "
 "testing purpose."
 msgstr ""
+"Zatrhněte pokud používáte sandbox mód od Gengo, především používaný na "
+"testování"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.base_gengo_translation_wizard_from
 msgid "Click here to Configure Gengo Parameters"
-msgstr ""
+msgstr "Sem klikněte  pro nastavení Gengo parametrů"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form
@@ -108,7 +114,7 @@ msgstr "Komentáře"
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_ir_translation__gengo_comment
 msgid "Comments & Activity Linked to Gengo"
-msgstr ""
+msgstr "Připomínky a akce spojené s Gengo"
 
 #. module: base_gengo
 #: model:ir.model,name:base_gengo.model_res_company
@@ -138,39 +144,39 @@ msgstr "Zobrazované jméno"
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.view_ir_translation_inherit_base_gengo_form
 msgid "Gengo Comments & Activity..."
-msgstr ""
+msgstr "připomínky a akce Gengo"
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_ir_translation__order_id
 msgid "Gengo Order ID"
-msgstr ""
+msgstr "Pořadí ID v Gengo"
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_res_company__gengo_private_key
 #: model:ir.model.fields,field_description:base_gengo.field_res_config_settings__gengo_private_key
 msgid "Gengo Private Key"
-msgstr ""
+msgstr "Soukromý klíč k Gengo"
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_res_company__gengo_public_key
 #: model:ir.model.fields,field_description:base_gengo.field_res_config_settings__gengo_public_key
 msgid "Gengo Public Key"
-msgstr ""
+msgstr "Veřejný klíč k Gengo"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.base_gengo_translation_wizard_from
 msgid "Gengo Request Form"
-msgstr ""
+msgstr "Gengo žádost"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.view_ir_translation_inherit_base_gengo_form
 msgid "Gengo Translation Service"
-msgstr ""
+msgstr "Překladač Gengo"
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_ir_translation__gengo_translation
 msgid "Gengo Translation Service Level"
-msgstr ""
+msgstr "Stupeň překladače Gengo"
 
 #. module: base_gengo
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:0
@@ -179,6 +185,8 @@ msgid ""
 "Gengo `Public Key` or `Private Key` are missing. Enter your Gengo "
 "authentication parameters under `Settings > Companies > Gengo Parameters`."
 msgstr ""
+"`Veřejný klíč` nebo `soukromý klíč` Gengo chybí. Vyplňte vaše Gengo "
+"ověřující kritéria, kteá najdete v `nastavení > firmy >Gengo kritéria`."
 
 #. module: base_gengo
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:0
@@ -187,6 +195,8 @@ msgid ""
 "Gengo connection failed with this message:\n"
 "``%s``"
 msgstr ""
+"Připojení Gengo selhalo s touto zprávou:\n"
+"``%s``"
 
 #. module: base_gengo
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:0
@@ -194,26 +204,27 @@ msgstr ""
 msgid ""
 "Gengo library not installed. Contact your system administrator to use it."
 msgstr ""
+"Knihovna Gengo není nainstalovaná. Pro použití kontaktujte svého správce."
 
 #. module: base_gengo
 #: model:ir.actions.act_window,name:base_gengo.action_wizard_base_gengo_translations
 #: model:ir.ui.menu,name:base_gengo.menu_action_wizard_base_gengo_translations
 msgid "Gengo: Manual Request of Translation"
-msgstr ""
+msgstr "Gengo: ruční žádost o překlad"
 
 #. module: base_gengo
 #: model:ir.actions.server,name:base_gengo.gengo_sync_send_request_scheduler_ir_actions_server
 #: model:ir.cron,cron_name:base_gengo.gengo_sync_send_request_scheduler
 #: model:ir.cron,name:base_gengo.gengo_sync_send_request_scheduler
 msgid "Gengo: Sync translation (Request)"
-msgstr ""
+msgstr "Gengo: synchronizovat překlad (žádost)"
 
 #. module: base_gengo
 #: model:ir.actions.server,name:base_gengo.gengo_sync_receive_request_scheduler_ir_actions_server
 #: model:ir.cron,cron_name:base_gengo.gengo_sync_receive_request_scheduler
 #: model:ir.cron,name:base_gengo.gengo_sync_receive_request_scheduler
 msgid "Gengo: Sync translation (Response)"
-msgstr ""
+msgstr "Gengo: synchronizovat překlad (odpověď)"
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__id
@@ -249,34 +260,34 @@ msgstr "Naposled upraveno"
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__sync_limit
 msgid "No. of terms to sync"
-msgstr ""
+msgstr "Počet názvů k synchronizaci"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form
 msgid "Private Key"
-msgstr ""
+msgstr "Soukromý klíč"
 
 #. module: base_gengo
 #: model:ir.model.fields.selection,name:base_gengo.selection__ir_translation__gengo_translation__pro
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form
 msgid "Public Key"
-msgstr ""
+msgstr "Veřejný klíč"
 
 #. module: base_gengo
 #: model:ir.model.fields.selection,name:base_gengo.selection__base_gengo_translations__sync_type__receive
 msgid "Receive Translation"
-msgstr ""
+msgstr "Získat překlad"
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_res_company__gengo_sandbox
 #: model:ir.model.fields,field_description:base_gengo.field_res_config_settings__gengo_sandbox
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form
 msgid "Sandbox Mode"
-msgstr ""
+msgstr "Sandbox mód"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.base_gengo_translation_wizard_from
@@ -286,7 +297,7 @@ msgstr "Odeslat"
 #. module: base_gengo
 #: model:ir.model.fields.selection,name:base_gengo.selection__base_gengo_translations__sync_type__send
 msgid "Send New Terms"
-msgstr ""
+msgstr "Poslat nové názvy"
 
 #. module: base_gengo
 #: model:ir.model.fields.selection,name:base_gengo.selection__ir_translation__gengo_translation__standard
@@ -296,7 +307,7 @@ msgstr "Standardní"
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__sync_type
 msgid "Sync Type"
-msgstr ""
+msgstr "Synchronizovaný typ"
 
 #. module: base_gengo
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:0
@@ -305,19 +316,21 @@ msgid ""
 "The number of terms to sync should be between 1 to 200 to work with Gengo "
 "translation services."
 msgstr ""
+"Počet názvů k synchronizaci by měl být mezi 1 do 200 aby překlad fungoval s "
+"překladačem Google."
 
 #. module: base_gengo
 #: model:ir.model.fields,field_description:base_gengo.field_base_gengo_translations__authorized_credentials
 msgid "The private and public keys are valid"
-msgstr ""
+msgstr "Soukromé a veřejné klíče jsou platné"
 
 #. module: base_gengo
 #: model:ir.model.fields,help:base_gengo.field_res_company__gengo_comment
 #: model:ir.model.fields,help:base_gengo.field_res_config_settings__gengo_comment
 msgid ""
-"This comment will be automatically be enclosed in each an every request sent"
-" to Gengo"
-msgstr ""
+"This comment will be automatically be enclosed in each an every request "
+"sent to Gengo"
+msgstr "Tento komentář bude automaticky uzavřen v každé žádosti poslané Gengo"
 
 #. module: base_gengo
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:0
@@ -328,7 +341,7 @@ msgstr "Tento jazyk není podporován překladatelskými službami Gengo."
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.view_translation_search
 msgid "To Approve In Gengo"
-msgstr ""
+msgstr "Potvrdit v Gengo"
 
 #. module: base_gengo
 #: model:ir.model,name:base_gengo.model_ir_translation
@@ -338,12 +351,12 @@ msgstr "Překlad"
 #. module: base_gengo
 #: model:ir.model.fields.selection,name:base_gengo.selection__ir_translation__gengo_translation__machine
 msgid "Translation By Machine"
-msgstr ""
+msgstr "Machine překlad"
 
 #. module: base_gengo
 #: model:ir.model.fields.selection,name:base_gengo.selection__ir_translation__gengo_translation__ultra
 msgid "Ultra"
-msgstr ""
+msgstr "extrémní"
 
 #. module: base_gengo
 #: model:ir.model.fields,help:base_gengo.field_ir_translation__gengo_translation
@@ -351,3 +364,4 @@ msgid ""
 "You can select here the service level you want for an automatic translation "
 "using Gengo."
 msgstr ""
+"Zde si můžete vybrat stupeň služby, který chcete použít na Gengo překlad"
