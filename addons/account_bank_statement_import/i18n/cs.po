@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_bank_statement_import
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # Jaroslav Helemik Nemec <nemec@helemik.cz>, 2019
@@ -10,27 +10,29 @@
 # Michal Veselý <michal@veselyberanek.net>, 2019
 # milda dvorak <milda.dvorak@optimal4.cz>, 2019
 # trendspotter <j.podhorecky@volny.cz>, 2019
-# 
+# Manuel <gexi@live.de>, 2019
+
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 09:10+0000\n"
-"PO-Revision-Date: 2019-08-26 09:08+0000\n"
+"PO-Revision-Date: 2019-12-04 16:09+0100\n"
 "Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: account_bank_statement_import
 #. openerp-web
 #: code:addons/account_bank_statement_import/static/src/js/account_bank_statement_import.js:0
 #, python-format
 msgid " Import Template for Bank Statements"
-msgstr "Importovat šablonu pro výpisy z banky"
+msgstr " Importovat šablonu pro výpisy z banky"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
@@ -113,7 +115,7 @@ msgstr "Alias domény"
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "Already imported items"
-msgstr ""
+msgstr "Již importované položky"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__at_least_one_inbound
@@ -131,8 +133,7 @@ msgid "Attachment Count"
 msgstr "Počet příloh"
 
 #. module: account_bank_statement_import
-#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_id
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0 model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_id
 #, python-format
 msgid "Bank"
 msgstr "Banka"
@@ -145,12 +146,12 @@ msgstr "Bankovní účet"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_statements_source
 msgid "Bank Feeds"
-msgstr ""
+msgstr "Výpisy z banky"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid "Bank Journal Name"
-msgstr ""
+msgstr "Název bankovního deníku"
 
 #. module: account_bank_statement_import
 #: model:ir.model,name:account_bank_statement_import.model_account_bank_statement_line
@@ -163,27 +164,20 @@ msgid "Bank setup manual config"
 msgstr "Konfugurace manuálního nastavení banky"
 
 #. module: account_bank_statement_import
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Cancel"
 msgstr "Zrušit"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"Cannot find in which journal import this statement. Please manually select a"
-" journal."
-msgstr ""
+msgid "Cannot find in which journal import this statement. Please manually select a journal."
+msgstr "Nemohu najít, v jakém deníku je tato informace. Prosím vyberte deník ručně."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence
-msgid ""
-"Check this box if you don't want to share the same sequence for invoices and"
-" credit notes made from this journal"
-msgstr ""
-"Zaškrtněte toto políčko, pokud nechcete sdílet stejné pořadí pro faktury a "
-"dobropisy z tohoto peněžního deníku"
+msgid "Check this box if you don't want to share the same sequence for invoices and credit notes made from this journal"
+msgstr "Zaškrtněte toto políčko, pokud nechcete sdílet stejné pořadí pro faktury a dobropisy z tohoto peněžního deníku"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__color
@@ -193,12 +187,12 @@ msgstr "Barevný index"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
 msgid "Communication Standard"
-msgstr ""
+msgstr "Standard komunikace"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type
 msgid "Communication Type"
-msgstr ""
+msgstr "Typ komunikace"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__company_id
@@ -216,19 +210,15 @@ msgstr "Společnost vztažená k tomuto deníku"
 msgid ""
 "Could not make sense of the given file.\n"
 "Did you install the module to support this type of file ?"
-msgstr ""
-"To nedává smysl k danému souboru. Je nainstalován modul pro podporu tohoto "
-"typu souboru?"
+msgstr "To nedává smysl k danému souboru. Je nainstalován modul pro podporu tohoto typu souboru?"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__create_uid
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_uid
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__create_uid model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_uid
 msgid "Created by"
 msgstr "Vytvořeno od"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__create_date
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_date
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__create_date model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_date
 msgid "Created on"
 msgstr "Vytvořeno"
 
@@ -240,7 +230,7 @@ msgstr "Postup při zadávání dobropisu"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence_number_next
 msgid "Credit Notes Next Number"
-msgstr ""
+msgstr "Číslo dalšího dobropisu"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__currency_id
@@ -250,7 +240,7 @@ msgstr "Měna"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence
 msgid "Dedicated Credit Note Sequence"
-msgstr ""
+msgstr "Číselná řada náležící dobropisům"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__default_credit_account_id
@@ -268,8 +258,7 @@ msgid "Defines how the bank statements will be registered"
 msgstr "Definuje, jak budou bankovní výpisy zaregistrovány"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__display_name
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__display_name model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__display_name
 msgid "Display Name"
 msgstr "Zobrazované jméno"
 
@@ -286,7 +275,7 @@ msgstr "Název souboru"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__attachment_ids
 msgid "Files"
-msgstr ""
+msgstr "Soubory"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_follower_ids
@@ -315,14 +304,11 @@ msgstr "Pro odchozí platby"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import__attachment_ids
-msgid ""
-"Get you bank statements in electronic format from your bank and select them "
-"here."
-msgstr ""
+msgid "Get you bank statements in electronic format from your bank and select them here."
+msgstr "Získejte elektronický výpis účtu z banky a vyberte je zde."
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__id
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__id
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__id model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__id
 msgid "ID"
 msgstr "ID"
 
@@ -337,8 +323,7 @@ msgid "Icon to indicate an exception activity."
 msgstr "Ikona označuje vyjímečnou aktivitu."
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction
-#: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
+#: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Pokud je zaškrtnuto, nové zprávy vyžadují vaši pozornost."
 
@@ -351,21 +336,16 @@ msgstr "Pokud je zaškrtnuto, některé zprávy mají chybu při doručení."
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"If it contains transactions for more than one account, it must be imported "
-"on each of them."
-msgstr ""
+msgid "If it contains transactions for more than one account, it must be imported on each of them."
+msgstr "Pokud obsahuje transakce pro více než jeden účet, musí být importován pro každý z nich."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
-msgid ""
-"If ticked, the accounting entry or invoice receives a hash as soon as it is "
-"posted and cannot be modified anymore."
-msgstr ""
+msgid "If ticked, the accounting entry or invoice receives a hash as soon as it is posted and cannot be modified anymore."
+msgstr "Pokud zatrženo, účetní rozvaha nebo faktura dostane upozornění v okamžiku poslání a nemůže být upraveno."
 
 #. module: account_bank_statement_import
-#: code:addons/account_bank_statement_import/account_journal.py:0
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
+#: code:addons/account_bank_statement_import/account_journal.py:0 model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
 #, python-format
 msgid "Import"
 msgstr "Import"
@@ -378,22 +358,22 @@ msgstr "Import Výpisu z bankovního účtu"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_line__unique_import_id
 msgid "Import ID"
-msgstr ""
+msgstr "Importovat ID"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
 msgid "Import Statement"
-msgstr ""
+msgstr "Importovat prohlášení"
 
 #. module: account_bank_statement_import
 #: model:ir.actions.act_window,name:account_bank_statement_import.install_more_import_formats_action
 msgid "Install Import Format"
-msgstr ""
+msgstr "Instalovat importovaný formát"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_is_follower
 msgid "Is Follower"
-msgstr "je Sledující"
+msgstr "Je sledující"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__default_credit_account_id
@@ -408,20 +388,18 @@ msgstr "Chová se jako výchozí účet pro částku Má dáti"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_name
 msgid "It creates draft invoices and bills by sending an email."
-msgstr ""
+msgstr "Vytváří koncepty faktur a účtů (účtenek) posláním emailu"
 
 #. module: account_bank_statement_import
-#: model:ir.model,name:account_bank_statement_import.model_account_journal
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_id
+#: model:ir.model,name:account_bank_statement_import.model_account_journal model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_id
 msgid "Journal"
 msgstr "Deník"
 
 #. module: account_bank_statement_import
-#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0 model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 #, python-format
 msgid "Journal Creation"
-msgstr ""
+msgstr "Vytvoření deníku"
 
 #. module: account_bank_statement_import
 #: model:ir.model,name:account_bank_statement_import.model_account_bank_statement_import_journal_creation
@@ -431,7 +409,7 @@ msgstr "Vytvoření deníku při importu bankovního výpisu"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_group_ids
 msgid "Journal Groups"
-msgstr ""
+msgstr "Skupiny v deníku"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__name
@@ -441,14 +419,12 @@ msgstr "Název deníku"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__json_activity_data
 msgid "Json Activity Data"
-msgstr ""
+msgstr "Záznamy o aktivitách Json"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
-msgid ""
-"Just click OK to create the account/journal and finish the upload. If this "
-"was a mistake, hit cancel to abort the upload."
-msgstr ""
+msgid "Just click OK to create the account/journal and finish the upload. If this was a mistake, hit cancel to abort the upload."
+msgstr "Klikněte OK pro vytvoření účtu/deníku a dokončete nahrávání. Pokud toto byla chyba, vyberte zrušit pro zrušení nahrávání."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard
@@ -458,7 +434,7 @@ msgstr "Kanban Ovládací panel"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard_graph
 msgid "Kanban Dashboard Graph"
-msgstr ""
+msgstr "Kanban graf na hlavní nabídce"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import____last_update
@@ -467,26 +443,24 @@ msgid "Last Modified on"
 msgstr "Naposled změněno"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__write_uid
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_uid
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__write_uid model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_uid
 msgid "Last Updated by"
 msgstr "Naposledy upraveno od"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__write_date
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_date
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__write_date model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_date
 msgid "Last Updated on"
 msgstr "Naposled upraveno"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
 msgid "Lock Posted Entries with Hash"
-msgstr ""
+msgstr "Zamčené poslané úvody s upozorněním"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
 msgid "Loss Account"
-msgstr ""
+msgstr "Ztrátový účet"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_main_attachment_id
@@ -511,6 +485,9 @@ msgid ""
 "Check:Pay bill by check and print it from Odoo.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
+"Ruční: zaplaťte účet hotově nebo jinou metodou mimo Odoo.\n"
+"Šek: zaplaťte šekem a vytiskněte ho z Odoo\n"
+"SEPA credit transfer: zaplaťte přes SEPA Credit Transfer soubor, který předáte bance. Povolte tuto možnost v nastavení."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error
@@ -546,7 +523,7 @@ msgstr "Další číslo"
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "No currency found matching '%s'."
-msgstr ""
+msgstr "Žádná shodná měna nebyla nalezena pod '%s'."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction_counter
@@ -581,7 +558,7 @@ msgstr "OK"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__post_at
 msgid "Post At"
-msgstr ""
+msgstr "Poslat v"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
@@ -601,7 +578,7 @@ msgstr "Chyba doručení SMS"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__secure_sequence_id
 msgid "Secure Sequence"
-msgstr ""
+msgstr "Zabezpečená číselná řada"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
@@ -611,11 +588,15 @@ msgid ""
 "Select 'Cash' or 'Bank' for journals that are used in customer or vendor payments.\n"
 "Select 'General' for miscellaneous operations journals."
 msgstr ""
+"Vyberte 'prodej' pro deníky odběratelských faktur.\n"
+"Vyberte 'nákup' pro deníky dodavatelských faktur.\n"
+"Vyberte 'hotovost' nebo 'banka' pro deníky, které jsou používány v odběratelských nebo dodavatelských platbách.\n"
+"Vyberte 'obecné' pro různé operace v deníku."
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Select Files"
-msgstr ""
+msgstr "Vyberte soubory"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
@@ -625,17 +606,17 @@ msgstr "Číselná řada"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__secure_sequence_id
 msgid "Sequence to use to ensure the securisation of data"
-msgstr ""
+msgstr "Číselná řada pro použití pro jisté zabezpečení dat"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__active
 msgid "Set active to false to hide the Journal without removing it."
-msgstr ""
+msgstr "Zaktivujte pro zpochybnění a zakrytí deníku bez jeho mazání."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__code
 msgid "Short Code"
-msgstr ""
+msgstr "Krátký kód"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__show_on_dashboard
@@ -657,26 +638,20 @@ msgstr ""
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
-msgid ""
-"The account of the statement you are uploading is not yet recorded in Odoo. "
-"In order to proceed with the upload, you need to create a bank journal for "
-"this account."
-msgstr ""
+msgid "The account of the statement you are uploading is not yet recorded in Odoo. In order to proceed with the upload, you need to create a bank journal for this account."
+msgstr "Zůstatek účtu, které nahráváte ještě není zapsán v Odoo. Pro nahrátí musíte založit bankovní deník pro tento účet."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"The account of this statement (%s) is not the same as the journal (%s)."
-msgstr ""
+msgid "The account of this statement (%s) is not the same as the journal (%s)."
+msgstr "Účet tohoto zůstatku (%s) není stejný jako v deníku (%s)."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"The currency of the bank statement (%s) is not the same as the currency of "
-"the journal (%s)."
-msgstr ""
+msgid "The currency of the bank statement (%s) is not the same as the currency of the journal (%s)."
+msgstr "Měna, ve které je bankovní zůstatek (%s) není ve stejné měně jako v deníku (%s)."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__currency_id
@@ -686,13 +661,12 @@ msgstr "Měna použitá k zadání příkazu"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__code
 msgid "The journal entries of this journal will be named using this prefix."
-msgstr ""
-"Položky tohoto účetního deníku budou pojmenovány pomocí tohoto předčíslí."
+msgstr "Položky tohoto účetního deníku budou pojmenovány pomocí tohoto předčíslí."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence_number_next
 msgid "The next sequence number will be used for the next credit note."
-msgstr ""
+msgstr "Další číslo v číselné řadě bude použito pro další dobropis."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_number_next
@@ -701,31 +675,25 @@ msgstr "Následující pořadové číslo bude použito pro další fakturu."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence_id
-msgid ""
-"This field contains the information related to the numbering of the credit "
-"note entries of this journal."
-msgstr ""
-"Toto pole obsahuje informace týkající se číslování záznamů o dobropisu "
-"tohoto peněžního deníku."
+msgid "This field contains the information related to the numbering of the credit note entries of this journal."
+msgstr "Toto pole obsahuje informace týkající se číslování záznamů o dobropisu tohoto peněžního deníku."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_id
-msgid ""
-"This field contains the information related to the numbering of the journal "
-"entries of this journal."
-msgstr ""
+msgid "This field contains the information related to the numbering of the journal entries of this journal."
+msgstr "Toto pole obsahuje informace ohledně číslování zápisů v tomto deníku."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "This file doesn't contain any statement for account %s."
-msgstr ""
+msgstr "Tento soubor neobsahuje žádné prohlášení pro účet %s."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "This file doesn't contain any transaction for account %s."
-msgstr ""
+msgstr "Tento soubor neobsahuje žádné transakce pro účet %s."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
@@ -748,38 +716,29 @@ msgid "Unread Messages Counter"
 msgstr "Počítadlo nepřečtených zpráv"
 
 #. module: account_bank_statement_import
-#: model:ir.actions.act_window,name:account_bank_statement_import.action_account_bank_statement_import
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
+#: model:ir.actions.act_window,name:account_bank_statement_import.action_account_bank_statement_import model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Upload"
 msgstr "Nahrát"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Upload Bank Statements"
-msgstr ""
+msgstr "Nahrát bankovní zůstatky"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
 msgid "Used to order Journals in the dashboard view"
-msgstr ""
+msgstr "Používáno pro zařazení deníků na hlavní menu"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
-msgid ""
-"Used to register a loss when the ending balance of a cash register differs "
-"from what the system computes"
-msgstr ""
-"Používá se k zaznamenání ztráty, když se konečný zůstatek pokladny liší od "
-"toho, co systém vypočítá"
+msgid "Used to register a loss when the ending balance of a cash register differs from what the system computes"
+msgstr "Používá se k zaznamenání ztráty, když se konečný zůstatek pokladny liší od toho, co systém vypočítá"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
-msgid ""
-"Used to register a profit when the ending balance of a cash register differs"
-" from what the system computes"
-msgstr ""
-"Používá se k registraci zisku, když se konečný zůstatek pokladny liší od "
-"toho, co systém vypočítá"
+msgid "Used to register a profit when the ending balance of a cash register differs from what the system computes"
+msgstr "Používá se k registraci zisku, když se konečný zůstatek pokladny liší od toho, co systém vypočítá"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__website_message_ids
@@ -800,38 +759,28 @@ msgstr "Zda se tento účetní deník zobrazuje na ovládacím panelu nebo ne"
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "You already have imported that file."
-msgstr ""
+msgstr "Tento soubor jste již nahráli."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
-msgid ""
-"You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
-msgstr ""
+msgid "You can choose different models for each type of reference. The default one is the Odoo reference."
+msgstr "Můžete vybrat jiné modely pro každý typ odkazu. Nastavený je Odoo odkaz."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type
-msgid ""
-"You can set here the default communication that will appear on customer "
-"invoices, once validated, to help the customer to refer to that particular "
-"invoice when making the payment."
-msgstr ""
-"Zde můžete nastavit výchozí komunikaci, která se po ověření zobrazí na "
-"zákaznických fakturách, aby pomohla zákazníkovi při provádění platby "
-"odkazovat na tuto fakturu."
+msgid "You can set here the default communication that will appear on customer invoices, once validated, to help the customer to refer to that particular invoice when making the payment."
+msgstr "Zde můžete nastavit výchozí komunikaci, která se po ověření zobrazí na zákaznických fakturách, aby pomohla zákazníkovi při provádění platby odkazovat na tuto fakturu."
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "You can upload your bank statement using:"
-msgstr ""
+msgstr "Můžete nahrát bankovní zůstatek použitím:"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"You have to set a Default Debit Account and a Default Credit Account for the"
-" journal: %s"
-msgstr ""
+msgid "You have to set a Default Debit Account and a Default Credit Account for the journal: %s"
+msgstr "Musíte nastavit výchozí účty Má dáti Dal pro deník: %s."
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
