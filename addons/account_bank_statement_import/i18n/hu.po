@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* account_bank_statement_import
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # krnkris, 2019
@@ -9,20 +9,22 @@
 # Kovács Tibor <kovika@gmail.com>, 2019
 # Ákos Nagy <akos.nagy@oregional.hu>, 2019
 # Tibor Kőnig <konig.tibor@evitalit.hu>, 2019
-# 
+# Manuel <gexi@live.de>, 2019
+
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 09:10+0000\n"
-"PO-Revision-Date: 2019-08-26 09:08+0000\n"
+"PO-Revision-Date: 2020-01-08 11:30+0100\n"
 "Last-Translator: Tibor Kőnig <konig.tibor@evitalit.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: account_bank_statement_import
 #. openerp-web
@@ -117,12 +119,12 @@ msgstr "Már importált tételek"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__at_least_one_inbound
 msgid "At Least One Inbound"
-msgstr ""
+msgstr "Legalább egy bejövő"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__at_least_one_outbound
 msgid "At Least One Outbound"
-msgstr ""
+msgstr "Legalább egy kimenő"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_attachment_count
@@ -130,8 +132,7 @@ msgid "Attachment Count"
 msgstr "Mellékletek száma"
 
 #. module: account_bank_statement_import
-#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_id
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0 model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_id
 #, python-format
 msgid "Bank"
 msgstr "Bank"
@@ -159,30 +160,23 @@ msgstr "Bankkivonat tételsor"
 #. module: account_bank_statement_import
 #: model:ir.model,name:account_bank_statement_import.model_account_setup_bank_manual_config
 msgid "Bank setup manual config"
-msgstr ""
+msgstr "Bank kézi beállítása"
 
 #. module: account_bank_statement_import
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Cancel"
 msgstr "Mégse"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"Cannot find in which journal import this statement. Please manually select a"
-" journal."
-msgstr ""
-"Nem található, melyik naplóba importáljuk ezt a kivonatot. Kérem válasszon "
-"egy könyvelési naplót."
+msgid "Cannot find in which journal import this statement. Please manually select a journal."
+msgstr "Nem található, melyik naplóba importáljuk ezt a kivonatot. Kérem válasszon egy könyvelési naplót."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence
-msgid ""
-"Check this box if you don't want to share the same sequence for invoices and"
-" credit notes made from this journal"
-msgstr ""
+msgid "Check this box if you don't want to share the same sequence for invoices and credit notes made from this journal"
+msgstr "Jelöld be ezt a négyzetet, ha nem akarod ugyanazt a sorozatot használni az ebből a naplóból készített számlákhoz és jóváírási értesítésekhez"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__color
@@ -192,7 +186,7 @@ msgstr "Színjegyzék"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
 msgid "Communication Standard"
-msgstr ""
+msgstr "Alapértelmezett közlemény"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type
@@ -220,14 +214,12 @@ msgstr ""
 "Telepítette a fájl típus támogatását szolgáló modult?"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__create_uid
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_uid
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__create_uid model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_uid
 msgid "Created by"
 msgstr "Létrehozta"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__create_date
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_date
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__create_date model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__create_date
 msgid "Created on"
 msgstr "Létrehozva"
 
@@ -264,11 +256,10 @@ msgstr "Alapértelmezett tartozik főkönyvi számla"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__bank_statements_source
 msgid "Defines how the bank statements will be registered"
-msgstr ""
+msgstr "Megadja hogy a bankszámlakivonatok miként lesznek regisztrálva"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__display_name
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__display_name
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__display_name model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__display_name
 msgid "Display Name"
 msgstr "Megjelenített név"
 
@@ -285,7 +276,7 @@ msgstr "Fájlnév"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__attachment_ids
 msgid "Files"
-msgstr ""
+msgstr "Fájlok"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_follower_ids
@@ -305,25 +296,20 @@ msgstr "Követők (Partnerek)"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid "For Incoming Payments"
-msgstr ""
+msgstr "Beérkező fizetések"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid "For Outgoing Payments"
-msgstr ""
+msgstr "Kimenő fizetések"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import__attachment_ids
-msgid ""
-"Get you bank statements in electronic format from your bank and select them "
-"here."
-msgstr ""
-"Bankjától szerezze be a kivonatokat elektronikus formátumban és azokat "
-"válassza ki itt."
+msgid "Get you bank statements in electronic format from your bank and select them here."
+msgstr "Bankjától szerezze be a kivonatokat elektronikus formátumban és azokat válassza ki itt."
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__id
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__id
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__id model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__id
 msgid "ID"
 msgstr "Azonosító"
 
@@ -335,11 +321,10 @@ msgstr "Ikon"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Ikon, ami jelzi a kivételes tevékenységet."
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction
-#: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
+#: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
 
@@ -347,27 +332,21 @@ msgstr "Ha be van jelölve, akkor az új üzenetek figyelmet igényelnek."
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
-"Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
+msgstr "Ha be van jelölve, akkor néhány üzenetnél kézbesítési hiba lépett fel."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"If it contains transactions for more than one account, it must be imported "
-"on each of them."
-msgstr ""
+msgid "If it contains transactions for more than one account, it must be imported on each of them."
+msgstr "Ha több mint egy fiók tranzakcióit tartalmazza, akkor mindegyiken importálni kell."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
-msgid ""
-"If ticked, the accounting entry or invoice receives a hash as soon as it is "
-"posted and cannot be modified anymore."
-msgstr ""
+msgid "If ticked, the accounting entry or invoice receives a hash as soon as it is posted and cannot be modified anymore."
+msgstr "Ha be van jelölve, akkor a számlázási bejegyzés, vagy számla azonnal kap egy hash-t, és ezután már nem lehet módosítani."
 
 #. module: account_bank_statement_import
-#: code:addons/account_bank_statement_import/account_journal.py:0
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
+#: code:addons/account_bank_statement_import/account_journal.py:0 model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
 #, python-format
 msgid "Import"
 msgstr "Importálás"
@@ -390,7 +369,7 @@ msgstr "Kivonat importálása"
 #. module: account_bank_statement_import
 #: model:ir.actions.act_window,name:account_bank_statement_import.install_more_import_formats_action
 msgid "Install Import Format"
-msgstr ""
+msgstr "Importálási formátum megadása"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_is_follower
@@ -410,17 +389,15 @@ msgstr "Tartozik összegek alapértelmezett főkönyvi számlája"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_name
 msgid "It creates draft invoices and bills by sending an email."
-msgstr ""
+msgstr "Email küldésével csinál vázlatot számlákról."
 
 #. module: account_bank_statement_import
-#: model:ir.model,name:account_bank_statement_import.model_account_journal
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_id
+#: model:ir.model,name:account_bank_statement_import.model_account_journal model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_id
 msgid "Journal"
 msgstr "Napló"
 
 #. module: account_bank_statement_import
-#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0 model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 #, python-format
 msgid "Journal Creation"
 msgstr "Napló létrehozás"
@@ -428,12 +405,12 @@ msgstr "Napló létrehozás"
 #. module: account_bank_statement_import
 #: model:ir.model,name:account_bank_statement_import.model_account_bank_statement_import_journal_creation
 msgid "Journal Creation on Bank Statement Import"
-msgstr ""
+msgstr "Napló készítése bankszámlakivonat importálásakor"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__journal_group_ids
 msgid "Journal Groups"
-msgstr ""
+msgstr "Napló csoportok"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__name
@@ -447,15 +424,13 @@ msgstr ""
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
-msgid ""
-"Just click OK to create the account/journal and finish the upload. If this "
-"was a mistake, hit cancel to abort the upload."
-msgstr ""
+msgid "Just click OK to create the account/journal and finish the upload. If this was a mistake, hit cancel to abort the upload."
+msgstr "Kattintson az OK-ra ahhoz, hogy elkészítse a felhasználót/naplót, és befejezze a feltöltést. Ha ez csak tévedés volt, akkor kattintson a \"mégse\" feliratra, hogy megszakítsa a feltöltést."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard
 msgid "Kanban Dashboard"
-msgstr ""
+msgstr "Kanban műszerfal"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard_graph
@@ -469,16 +444,14 @@ msgid "Last Modified on"
 msgstr "Legutóbb frissítve"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__write_uid
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_uid
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__write_uid model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_uid
 msgid "Last Updated by"
 msgstr "Frissítette"
 
 #. module: account_bank_statement_import
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__write_date
-#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_date
+#: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__write_date model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__write_date
 msgid "Last Updated on"
-msgstr "Frissítve "
+msgstr "Frissítve"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
@@ -502,6 +475,10 @@ msgid ""
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
+"Kézi: Kapd meg a fizetést készpénzzel, csekkel, vagy bármilyen másik fizetési lehetőséggel az Odoo-n kívül.\n"
+"Elektronikus: Kapd meg a fizetésed automatikusan egy tranzakciós kérelem benyújtásával, egy már a vevő által mentett kártyával, amit megvételkor, vagy online feliratkozáskor mentett el.\n"
+"Csoportos fizetés: Foglalj össze több vásárlói csekket egyszerre egy \"csoportos fizetés\" készítésével, amit be tudsz nyújtani a bankodnak. A bankszámlakivonat kódolásakor az Odoo-ban ajánlott összehangolni a tranzakciót a csoportos fizetéssel. "
+"Engedélyezd ezt a beállítás menüben."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
@@ -555,7 +532,7 @@ msgstr "Akciók száma"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Hibák száma"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction_counter
@@ -595,12 +572,12 @@ msgstr "Felelős felhasználó"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "SMS kézbesítési hiba"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__secure_sequence_id
 msgid "Secure Sequence"
-msgstr ""
+msgstr "Biztonságos sorozat"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
@@ -610,15 +587,13 @@ msgid ""
 "Select 'Cash' or 'Bank' for journals that are used in customer or vendor payments.\n"
 "Select 'General' for miscellaneous operations journals."
 msgstr ""
-"Válassza az 'Értékesítés'-t a vevői számlák naplózásához. Válassza a "
-"'Beszerzés'-t a szállítói számlák naplózásához. Válassza a 'Készpénz'-t vagy"
-" a 'Bank'-ot olyan naplókhoz melyek a vevői vagy szállítói fizetéseket "
-"rögzítik. Válassza az 'Általános'-t az egyéb műveletek naplózásához. "
+"Válassza az 'Értékesítés'-t a vevői számlák naplózásához. Válassza a 'Beszerzés'-t a szállítói számlák naplózásához. Válassza a 'Készpénz'-t vagy a 'Bank'-ot olyan naplókhoz melyek a vevői vagy szállítói fizetéseket rögzítik. Válassza az 'Általános'-t az "
+"egyéb műveletek naplózásához."
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Select Files"
-msgstr ""
+msgstr "Válasszon fájlokat"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
@@ -633,7 +608,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__active
 msgid "Set active to false to hide the Journal without removing it."
-msgstr ""
+msgstr "Állítsd az aktív-ot hamis-ra, hogy elrejtsd a Naplót anélkül, hogy törölnéd."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__code
@@ -660,25 +635,19 @@ msgstr ""
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
-msgid ""
-"The account of the statement you are uploading is not yet recorded in Odoo. "
-"In order to proceed with the upload, you need to create a bank journal for "
-"this account."
+msgid "The account of the statement you are uploading is not yet recorded in Odoo. In order to proceed with the upload, you need to create a bank journal for this account."
 msgstr ""
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"The account of this statement (%s) is not the same as the journal (%s)."
+msgid "The account of this statement (%s) is not the same as the journal (%s)."
 msgstr "Ennek a bankkivonatnak (%s) a számlája nem egyezik a naplójéval (%s)."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"The currency of the bank statement (%s) is not the same as the currency of "
-"the journal (%s)."
+msgid "The currency of the bank statement (%s) is not the same as the currency of the journal (%s)."
 msgstr ""
 
 #. module: account_bank_statement_import
@@ -694,40 +663,34 @@ msgstr "A napló bejegyzései ezen előtag használatával kerülnek elnevezésr
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence_number_next
 msgid "The next sequence number will be used for the next credit note."
-msgstr ""
+msgstr "A következő számsor lesz használva a következő jóváírási értesítésnél."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_number_next
 msgid "The next sequence number will be used for the next invoice."
-msgstr ""
+msgstr "A következő számsor lesz használva a következő számlánál."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence_id
-msgid ""
-"This field contains the information related to the numbering of the credit "
-"note entries of this journal."
+msgid "This field contains the information related to the numbering of the credit note entries of this journal."
 msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_id
-msgid ""
-"This field contains the information related to the numbering of the journal "
-"entries of this journal."
-msgstr ""
-"Ez a mező tartalmazza ennek a naplónak a bejegyzéseihez tartozó számok "
-"információit."
+msgid "This field contains the information related to the numbering of the journal entries of this journal."
+msgstr "Ez a mező tartalmazza ennek a naplónak a bejegyzéseihez tartozó számok információit."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "This file doesn't contain any statement for account %s."
-msgstr ""
+msgstr "Ez a fájl nem tartalmaz semmilyen kivonatot ehhez a fiókhoz %s."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "This file doesn't contain any transaction for account %s."
-msgstr ""
+msgstr "Ez a fájl nem tartalmaz semmilyen tranzakciót ehhez a fiókhoz %s."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
@@ -737,7 +700,7 @@ msgstr "Típus"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "A felvett kivételes tevékenység típusa."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_unread
@@ -750,15 +713,14 @@ msgid "Unread Messages Counter"
 msgstr "Olvasatlan üzenetek száma"
 
 #. module: account_bank_statement_import
-#: model:ir.actions.act_window,name:account_bank_statement_import.action_account_bank_statement_import
-#: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
+#: model:ir.actions.act_window,name:account_bank_statement_import.action_account_bank_statement_import model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Upload"
 msgstr "Feltöltés"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Upload Bank Statements"
-msgstr ""
+msgstr "Bankszámlakivonatok feltöltése"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
@@ -767,21 +729,13 @@ msgstr "Műszerfal nézetben a Naplók rendezéséhez használja"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
-msgid ""
-"Used to register a loss when the ending balance of a cash register differs "
-"from what the system computes"
-msgstr ""
-"Veszteség rögzítésére használja, ha a záró egyenleg a kasszánál eltér a "
-"rendszer által számítottól"
+msgid "Used to register a loss when the ending balance of a cash register differs from what the system computes"
+msgstr "Veszteség rögzítésére használja, ha a záró egyenleg a kasszánál eltér a rendszer által számítottól"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
-msgid ""
-"Used to register a profit when the ending balance of a cash register differs"
-" from what the system computes"
-msgstr ""
-"Nyereség rögzítésére használja, ha a záró egyenleg a kasszánál eltér a "
-"rendszer által számítottól"
+msgid "Used to register a profit when the ending balance of a cash register differs from what the system computes"
+msgstr "Nyereség rögzítésére használja, ha a záró egyenleg a kasszánál eltér a rendszer által számítottól"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__website_message_ids
@@ -802,34 +756,27 @@ msgstr "Ez a napló megjelenítésre kerüljön a műszerfalon vagy nem"
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "You already have imported that file."
-msgstr ""
+msgstr "Már importálta ezt a fájlt."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
-msgid ""
-"You can choose different models for each type of reference. The default one "
-"is the Odoo reference."
-msgstr ""
+msgid "You can choose different models for each type of reference. The default one is the Odoo reference."
+msgstr "Választhat különböző modelleket mindegyik típusú referenciához. Az alapértelmezett az Odoo referencia."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_type
-msgid ""
-"You can set here the default communication that will appear on customer "
-"invoices, once validated, to help the customer to refer to that particular "
-"invoice when making the payment."
+msgid "You can set here the default communication that will appear on customer invoices, once validated, to help the customer to refer to that particular invoice when making the payment."
 msgstr ""
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "You can upload your bank statement using:"
-msgstr ""
+msgstr "Ennek használatával tudja feltölteni a számlakivontatát:"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
-msgid ""
-"You have to set a Default Debit Account and a Default Credit Account for the"
-" journal: %s"
+msgid "You have to set a Default Debit Account and a Default Credit Account for the journal: %s"
 msgstr ""
 
 #. module: account_bank_statement_import
