@@ -1,27 +1,29 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_import_module
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # krnkris, 2019
 # gezza <geza.nagy@oregional.hu>, 2019
 # Ákos Nagy <akos.nagy@oregional.hu>, 2019
 # Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2019
-# 
+# Manuel <gexi@live.de>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:16+0000\n"
-"PO-Revision-Date: 2019-08-26 09:09+0000\n"
-"Last-Translator: Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-01-10 10:49+0100\n"
+"Last-Translator: Daniel Gerstenbrand <daniel.gerstenbrand@gmail.com>, "
+"2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -119,7 +121,7 @@ msgstr "Frissítette"
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_date
 msgid "Last Updated on"
-msgstr "Frissítve "
+msgstr "Frissítve"
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_module_module
@@ -154,7 +156,7 @@ msgstr "Kizárólag rendszergazda tud modult feltölten"
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
 msgid "Only zip files are supported."
-msgstr "Csak zip fájlok támogatottak"
+msgstr "Csak zip fájlok támogatottak."
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -191,6 +193,9 @@ msgid ""
 "\n"
 " - %s"
 msgstr ""
+"Kielégítetlen modul függőségek: \n"
+"\n"
+" - %s"
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_ui_view
