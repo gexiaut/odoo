@@ -1,31 +1,32 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* base_automation
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # krnkris, 2019
 # gezza <geza.nagy@oregional.hu>, 2019
 # Ákos Nagy <akos.nagy@oregional.hu>, 2019
-# 
+# Manuel <gexi@live.de>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:12+0000\n"
-"PO-Revision-Date: 2019-08-26 09:09+0000\n"
+"PO-Revision-Date: 2020-01-13 11:01+0100\n"
 "Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: base_automation
 #: model:mail.template,body_html:base_automation.test_mail_template_automation
 msgid "<div>Email automation</div>"
-msgstr ""
+msgstr "<div>Email automatizáció</div>"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__help
@@ -61,7 +62,7 @@ msgstr "Tevékenység"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__activity_user_type
 msgid "Activity User Type"
-msgstr ""
+msgstr "Tevékenység Felhasználó Típusa"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__channel_ids
@@ -86,13 +87,13 @@ msgstr "Archivált"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test__is_assigned_to_admin
 msgid "Assigned to admin user"
-msgstr ""
+msgstr "Admin felhasználónak kiosztva"
 
 #. module: base_automation
 #: model:ir.model,name:base_automation.model_base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__ir_actions_server__usage__base_automation
 msgid "Automated Action"
-msgstr ""
+msgstr "Automatizált Művelet"
 
 #. module: base_automation
 #: model:ir.actions.act_window,name:base_automation.base_automation_act
@@ -218,12 +219,10 @@ msgstr "Alárendelt műveletek"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__child_ids
 msgid ""
-"Child server actions that will be executed. Note that the last return "
-"returned action value will be used as global return value."
+"Child server actions that will be executed. Note that the last return returned action value will be used as global return value."
 msgstr ""
-"Alárendelt szerver műveletek, amelyek végre lesznek hajtva. Vegye "
-"figyelembe, hogy az utolsó művelet visszatérő értékét használja fel, mint "
-"globális visszatérő érték."
+"Alárendelt szerver műveletek, amelyek végre lesznek hajtva. Vegye figyelembe, hogy az utolsó művelet visszatérő értékét "
+"használja fel, mint globális visszatérő érték."
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation_lead_test__state__done
@@ -233,9 +232,7 @@ msgstr "Lezárt"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__on_change_fields
 msgid "Comma-separated list of field names that triggers the onchange."
-msgstr ""
-"Vesszővel elválasztott mezőnevek listája melyek elindítják a változtatáskori"
-" műveletet."
+msgstr "Vesszővel elválasztott mezőnevek listája melyek elindítják a változtatáskori műveletet."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__crud_model_id
@@ -348,20 +345,13 @@ msgstr "Az akció azonosítója ha, meg van határozva az XML fájlban"
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
-msgid ""
-"If present, this condition must be satisfied before executing the action "
-"rule."
-msgstr ""
-"Ha fellelhető, akkor ennek a feltételnek teljesülnie kell a műveleti szabály"
-" végrehajtása előtt."
+msgid "If present, this condition must be satisfied before executing the action rule."
+msgstr "Ha fellelhető, akkor ennek a feltételnek teljesülnie kell a műveleti szabály végrehajtása előtt."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_pre_domain
-msgid ""
-"If present, this condition must be satisfied before the update of the "
-"record."
-msgstr ""
-"Ha létezik, ennek a feltételnek teljesülnie kell a rekord frissítése előtt."
+msgid "If present, this condition must be satisfied before the update of the record."
+msgstr "Ha létezik, ennek a feltételnek teljesülnie kell a rekord frissítése előtt."
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation_lead_test__state__open
@@ -397,7 +387,7 @@ msgstr "Frissítette"
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test__write_date
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_line_test__write_date
 msgid "Last Updated on"
-msgstr "Frissítve "
+msgstr "Frissítve"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_line_test__lead_id
@@ -431,12 +421,8 @@ msgstr "Modell név"
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__crud_model_id
-msgid ""
-"Model for record creation / update. Set this field only to specify a "
-"different model than the base model."
-msgstr ""
-"Modell rekord készítéséhes / frissítéséhez. Csak akkor állítsa be, ha az "
-"alap modelltől eltérő modellt szeretne használni."
+msgid "Model for record creation / update. Set this field only to specify a different model than the base model."
+msgstr "Modell rekord készítéséhes / frissítéséhez. Csak akkor állítsa be, ha az alap modelltől eltérő modellt szeretne használni."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__model_id
@@ -490,12 +476,8 @@ msgstr "Frissítéskor"
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__help
-msgid ""
-"Optional help text for the users with a description of the target view, such"
-" as its usage and purpose."
-msgstr ""
-"Opcionális segédszöveg felhasználóknak. Tartalmaz egy leírást a célnézetről,"
-" úgy mint a használata és a célja."
+msgid "Optional help text for the users with a description of the target view, such as its usage and purpose."
+msgstr "Opcionális segédszöveg felhasználóknak. Tartalmaz egy leírást a célnézetről, úgy mint a használata és a célja."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test__partner_id
@@ -514,9 +496,7 @@ msgstr "Prioritás"
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__link_field_id
-msgid ""
-"Provide the field used to link the newly created record on the record on "
-"used by the server action."
+msgid "Provide the field used to link the newly created record on the record on used by the server action."
 msgstr ""
 
 #. module: base_automation
@@ -547,15 +527,13 @@ msgstr "Szerver műveletek"
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__binding_model_id
-msgid ""
-"Setting a value makes this action available in the sidebar for the given "
-"model."
-msgstr ""
+msgid "Setting a value makes this action available in the sidebar for the given model."
+msgstr "Egy érték megadása elérhetővé teszi ezt a műveletet az adott modelnél."
 
 #. module: base_automation
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
 msgid "Setup a new automated automation"
-msgstr ""
+msgstr "Új automatizált automatizálás beállítása"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test__state
@@ -580,22 +558,20 @@ msgstr "Cél modell"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__activity_user_field_name
 msgid "Technical name of the user on the record"
-msgstr ""
+msgstr "Technikai neve a record-on lévő felhasználónak"
 
 #. module: base_automation
 #: code:addons/base_automation/models/base_automation.py:0
 #, python-format
-msgid ""
-"The \"%(trigger_value)s\" %(trigger_label)s can only be used with the "
-"\"%(state_value)s\" action type"
-msgstr ""
+msgid "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%(state_value)s\" action type"
+msgstr "A \"%(trigger_value)s\" %(trigger_label)s csak \"%(state_value)s\" művelet típussal használható."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trigger_field_ids
-msgid ""
-"The action will be triggered if and only if one of these fields is "
-"updated.If empty, all fields are watched."
+msgid "The action will be triggered if and only if one of these fields is updated.If empty, all fields are watched."
 msgstr ""
+"A művelet csak akkor és csak akkor lesz végrehajtva, ha ezek közül a mezők közül legalább egy frissítve lesz. Ha üres, akkor az "
+"összes mező meg van figyelve."
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trigger
@@ -629,9 +605,8 @@ msgstr "Használat"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__activity_user_type
 msgid ""
-"Use 'Specific User' to always assign the same user on the next activity. Use"
-" 'Generic User From Record' to specify the field name of the user to choose "
-"on the record."
+"Use 'Specific User' to always assign the same user on the next activity. Use 'Generic User From Record' to specify the field "
+"name of the user to choose on the record."
 msgstr ""
 
 #. module: base_automation
@@ -677,21 +652,14 @@ msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_calendar_id
-msgid ""
-"When calculating a day-based timed condition, it is possible to use a "
-"calendar to compute the date based on working days."
+msgid "When calculating a day-based timed condition, it is possible to use a calendar to compute the date based on working days."
 msgstr ""
-"Ha egy nap-alapú időzített feltételt számol, akkor lehetősége van naptárat "
-"használni a munkanapokon alapuló dátum kiszámításhoz."
+"Ha egy nap-alapú időzített feltételt számol, akkor lehetősége van naptárat használni a munkanapokon alapuló dátum kiszámításhoz."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__sequence
-msgid ""
-"When dealing with multiple actions, the execution order is based on the "
-"sequence. Low number means high priority."
-msgstr ""
-"Ha tömeges műveletekkel van dolgunk, az elvégzési sorrend a sorszámon "
-"alapul. Alacsony szám magasabb prioritást jelent."
+msgid "When dealing with multiple actions, the execution order is based on the sequence. Low number means high priority."
+msgstr "Ha tömeges műveletekkel van dolgunk, az elvégzési sorrend a sorszámon alapul. Alacsony szám magasabb prioritást jelent."
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_id
@@ -710,6 +678,6 @@ msgstr "Ha nincs bejelölve, a szabály eltüntetett és nem végrehajtott."
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__code
 msgid ""
-"Write Python code that the action will execute. Some variables are available"
-" for use; help about python expression is given in the help tab."
+"Write Python code that the action will execute. Some variables are available for use; help about python expression is given in "
+"the help tab."
 msgstr ""
