@@ -1,25 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* website_sale_delivery
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # Michal Veselý <michal@veselyberanek.net>, 2019
 # trendspotter <j.podhorecky@volny.cz>, 2019
-# 
+# Manuel <gexi@live.de>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-12 11:33+0000\n"
-"PO-Revision-Date: 2019-08-26 09:16+0000\n"
+"PO-Revision-Date: 2020-02-06 09:57+0100\n"
 "Last-Translator: trendspotter <j.podhorecky@volny.cz>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. module: website_sale_delivery
 #: model_terms:ir.ui.view,arch_db:website_sale_delivery.payment_delivery
@@ -29,9 +31,9 @@ msgstr "<b>Způsob dopravy:</b>"
 #. module: website_sale_delivery
 #: model:ir.model.fields,help:website_sale_delivery.field_delivery_carrier__website_description
 msgid ""
-"A description of the Product that you want to communicate to your customers."
-" This description will be copied to every Sales Order, Delivery Order and "
-"Customer Invoice/Credit Note"
+"A description of the Product that you want to communicate to your "
+"customers. This description will be copied to every Sales Order, Delivery "
+"Order and Customer Invoice/Credit Note"
 msgstr ""
 "Popis produktu, který chcete sdělit vašim zákazníkům. Tento popis bude "
 "zkopírován do každé objednávky, objednávky a zákaznické faktury / kreditní "
@@ -104,8 +106,8 @@ msgstr "Volný"
 #: code:addons/website_sale_delivery/controllers/main.py:72
 #, python-format
 msgid ""
-"No shipping method is available for your current order and shipping address."
-" Please contact us for more information."
+"No shipping method is available for your current order and shipping "
+"address. Please contact us for more information."
 msgstr ""
 "Pro vaši aktuální objednávku a dodací adresu není k dispozici žádný způsob "
 "přepravy. Pro více informací nás prosím kontaktujte."
@@ -123,7 +125,7 @@ msgstr "Prodejní objednávka"
 #. module: website_sale_delivery
 #: model_terms:ir.ui.view,arch_db:website_sale_delivery.payment_delivery_methods
 msgid "Select to compute delivery rate"
-msgstr ""
+msgstr "Zvolte pro výpočet míry doručení"
 
 #. module: website_sale_delivery
 #: model:ir.model,name:website_sale_delivery.model_delivery_carrier
